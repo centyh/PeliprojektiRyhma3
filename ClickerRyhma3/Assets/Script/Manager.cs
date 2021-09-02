@@ -26,7 +26,7 @@ public class Manager : MonoBehaviour
     {
         if (!hasUpgrade && TotalClicks >= minimumClicksToUnlockUpgrade)
         {
-            TotalClicks = minimumClicksToUnlockUpgrade;        // Won't subract from the score when using upgrade
+            TotalClicks -= minimumClicksToUnlockUpgrade;        // Subract from the score when using upgrade
             hasUpgrade = true;
         }
     }
