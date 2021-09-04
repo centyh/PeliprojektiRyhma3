@@ -12,10 +12,8 @@ public class Manager : MonoBehaviour
     public float scoreIncreasedPerSecond;
     public float x;
 
+    public float luckyHitChance;
 
-    //bool hasUpgrade;
-    //public int autoClicksPerSecond;     // To add amount for autoclicks per seconds
-    //public int minimumClicksToUnlockUpgrade; //  How many clicks to unlock the upgrade
 
     //UPGRADES
     public Text autoClickText;
@@ -31,6 +29,17 @@ public class Manager : MonoBehaviour
     public int luckyHitPrice;
 
 
+    //AMOUNT
+    public Text clickDmgStatText;
+    public int clickDmgStat;
+
+    public Text autoClickStatText;
+    public int autoClickStat;
+    public float autoClickPerSecond;
+
+
+
+
 
     private void Start()
     {
@@ -38,31 +47,13 @@ public class Manager : MonoBehaviour
         hitPower = 1;
         scoreIncreasedPerSecond = 1;
         x = 0f;
+        clickDmgStat = 1;
+        
     }
 
-    //public void AddClicks()
-    //{
-    //    TotalClicks++;      // Add Score to the text when clicking button
-    //    ClicksTotalText.text = TotalClicks.ToString("0");       // It shows the text no desimal only full numbers
-    //}
 
-    //public void AutoClickUpgrade()
-    //{
-    //    if (!hasUpgrade && TotalClicks >= minimumClicksToUnlockUpgrade)
-    //    {
-    //        TotalClicks -= minimumClicksToUnlockUpgrade;        // Subract from the score when using upgrade
-    //        hasUpgrade = true;
-    //    }
-    //}
-
-    private void Update()
+    void Update()
     {
-        //if (hasUpgrade)
-        //{
-        //    TotalClicks += autoClicksPerSecond * Time.deltaTime;
-
-        //    ClicksTotalText.text = TotalClicks.ToString("0");   // Update the score
-        //}
         //CLICKER
         scoreText.text = (int)currentScore + " ";
         scoreIncreasedPerSecond = x * Time.deltaTime;
@@ -74,19 +65,25 @@ public class Manager : MonoBehaviour
         clickDmgCost.text = "Cost: " + clickDmgPrice + " ";
 
         luckyHitCost.text = "Cost: " + luckyHitPrice + " ";
-        
 
+        clickDmgStatText.text = "Click Damage: " + clickDmgStat;
+
+        autoClickStatText.text = "Auto Click: " + autoClickStat + "/second";
+
+        
     }
 
     public void Hit()
     {
         currentScore += hitPower;
+        LuckyHit();
     }
 
     public void AutoClickUpgrade()
     {
         if(currentScore >= autoClickPrice)
         {
+            autoClickStat += 1;
             currentScore -= autoClickPrice;
             x += 1;
             autoClickPrice += 75;
@@ -97,14 +94,21 @@ public class Manager : MonoBehaviour
     {
         if(currentScore >= clickDmgPrice)
         {
+            clickDmgStat += 1;
             currentScore -= clickDmgPrice;
             hitPower += 1;
             clickDmgPrice += 25;
         }
     }
 
-    public void LuckyHitUpgrade()
+    public void LuckyHit()
     {
-
+        if(Random.value <= .10f)
+        {
+            luckyHitChance = hitPower * 5;
+            Debug.Log("LUCKY CLICK");
+            return;
+        }
     }
 }
+ 
