@@ -28,6 +28,10 @@ public class Manager : MonoBehaviour
     public Text luckyHitCost;
     public int luckyHitPrice;
 
+    public Text moreClickDmgText;
+    public Text moreClickDmgCost;
+    public int moreClickDmgPrice;
+
 
     //AMOUNT
     public Text clickDmgStatText;
@@ -70,7 +74,7 @@ public class Manager : MonoBehaviour
 
         autoClickStatText.text = "Auto Click: " + autoClickStat + "/second";
 
-        
+        moreClickDmgCost.text = "Cost: " + moreClickDmgPrice;
     }
 
     public void Hit()
@@ -98,6 +102,17 @@ public class Manager : MonoBehaviour
             currentScore -= clickDmgPrice;
             hitPower += 1;
             clickDmgPrice += 25;
+        }
+    }
+
+    public void MoreClickDamage()
+    {
+        if(currentScore >= moreClickDmgPrice)
+        {
+            clickDmgStat += 3;
+            hitPower += 3;
+            currentScore -= moreClickDmgPrice;
+            moreClickDmgPrice += 250;
         }
     }
 
