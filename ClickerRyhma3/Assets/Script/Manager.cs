@@ -44,7 +44,6 @@ public class Manager : MonoBehaviour
 
 
 
-
     private void Start()
     {
         currentScore = 0;
@@ -75,6 +74,7 @@ public class Manager : MonoBehaviour
         autoClickStatText.text = "Auto Click: " + autoClickStat + "/second";
 
         moreClickDmgCost.text = "Cost: " + moreClickDmgPrice;
+
     }
 
     public void Hit()
@@ -125,5 +125,6 @@ public class Manager : MonoBehaviour
             return;
         }
     }
+
 }
  
