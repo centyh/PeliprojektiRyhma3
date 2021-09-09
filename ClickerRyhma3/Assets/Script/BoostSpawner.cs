@@ -4,32 +4,60 @@ using UnityEngine;
 
 public class BoostSpawner : MonoBehaviour
 {
-    [SerializeField] GameObject[] boosts;
-    private int numberToSpawn = 7;
-    private int rand;
-    
-
-
-
-    void Start()
-    {
-        
-    }
+    public int timeToSpawn;
+    public int numberToSpawn;
+    public List<GameObject> spawnPool;
+    public GameObject quad;
 
     
+    public float spawnNumber;
+    public float spawnTimer;
+
+
     void Update()
     {
         SpawnObjects();
+        
     }
 
-    void SpawnObjects()
+    public void SpawnObjects()
     {
-        rand = Random.Range(0, 10000);
+        int randomItem = 0;
+        GameObject toSpawn;
+        MeshCollider c = quad.GetComponent<MeshCollider>();
 
-        if(rand == numberToSpawn)
+        spawnTimer = Random.Range(0, 10000);
+
+        float screenX, screenY;
+        Vector2 pos;
+
+        if(spawnNumber == spawnTimer)
         {
-            Instantiate(boosts[0], transform.position, Quaternion.identity);
-            Debug.Log("Kolikko boosti spawnattu");
+            randomItem = Random.Range(0, spawnPool.Count);
+            toSpawn = spawnPool[randomItem];
+
+            screenX = Random.Range(c.bounds.min.x, c.bounds.max.x);
+            screenY = Random.Range(c.bounds.min.y, c.bounds.max.y);
+            pos = new Vector2(screenX, screenY);
+
+            Instantiate(toSpawn, pos, toSpawn.transform.rotation);
+            
         }
+
+        //for(int i = 0; i < timeToSpawn; i++)
+        //{
+        //    randomItem = Random.Range(0, spawnPool.Count);
+        //    toSpawn = spawnPool[randomItem];
+
+        //    screenX = Random.Range(c.bounds.min.x, c.bounds.max.x);
+        //    screenY = Random.Range(c.bounds.min.y, c.bounds.max.y);
+        //    pos = new Vector2(screenX, screenY);
+
+        //    Instantiate(toSpawn, pos, toSpawn.transform.rotation);
+            
+        //}
     }
+
+    
+
 }

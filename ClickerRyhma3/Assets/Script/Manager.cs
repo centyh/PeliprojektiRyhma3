@@ -32,6 +32,10 @@ public class Manager : MonoBehaviour
     public Text moreClickDmgCost;
     public int moreClickDmgPrice;
 
+    public Text clickFactoryText;
+    public Text clickFactoryCost;
+    public int clickFactoryPrice;
+
 
     //AMOUNT
     public Text clickDmgStatText;
@@ -75,6 +79,7 @@ public class Manager : MonoBehaviour
 
         moreClickDmgCost.text = "Cost: " + moreClickDmgPrice;
 
+        
     }
 
     public void Hit()
@@ -113,6 +118,19 @@ public class Manager : MonoBehaviour
             hitPower += 3;
             currentScore -= moreClickDmgPrice;
             moreClickDmgPrice += 250;
+        }
+    }
+
+    public void ClickFactoryUpgrade()
+    {
+        if(currentScore >= clickFactoryPrice)
+        {
+            clickDmgStat += 5;
+            autoClickStat += 5;
+            hitPower += 5;
+            x += 5;
+            currentScore -= clickFactoryPrice;
+            clickFactoryPrice += 2500;
         }
     }
 
