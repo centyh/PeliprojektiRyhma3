@@ -79,7 +79,7 @@ public class Manager : MonoBehaviour
 
         moreClickDmgCost.text = "Cost: " + moreClickDmgPrice;
 
-        
+
     }
 
     public void Hit()

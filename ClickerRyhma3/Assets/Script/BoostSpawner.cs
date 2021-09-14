@@ -26,7 +26,7 @@ public class BoostSpawner : MonoBehaviour
         GameObject toSpawn;
         MeshCollider c = quad.GetComponent<MeshCollider>();
 
-        spawnTimer = Random.Range(0, 10000);
+        spawnTimer = Random.Range(0, 1000);
 
         float screenX, screenY;
         Vector2 pos;

@@ -6,6 +6,8 @@ public class ClickDmgBoost : Manager
 {
     private float amountCoins;
 
+    
+
     void Start()
     {
         
@@ -28,7 +30,7 @@ public class ClickDmgBoost : Manager
 
             if (hit2D.collider.CompareTag("ClickDmgBoost"))
             {
-                
+                hitPower += 30;
                 Debug.Log("ClickDmgBoost");
                 Destroy(gameObject);
             }
