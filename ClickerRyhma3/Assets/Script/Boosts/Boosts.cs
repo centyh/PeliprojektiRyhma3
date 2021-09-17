@@ -2,10 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Boosts : Manager
+public class Boosts : MonoBehaviour
 {
     public float amountCoins;
-    
+
+
+    private void Start()
+    {
+        
+    }
 
     void Update()
     {
@@ -23,16 +28,17 @@ public class Boosts : Manager
 
             if (hit2D.collider.CompareTag("CoinBoost"))
             {
-                amountCoins = Random.Range(50, 500);
-                currentScore += amountCoins;
+                amountCoins = Random.Range(50, 250);
+                Manager.manager.currentScore += amountCoins;
                 Debug.Log("CoinBoost");
                 Destroy(gameObject);
             }
 
             if (hit2D.collider.CompareTag("ClickDmgBoost"))
             {
-                hitPower += 10;
-                clickDmgStat += 10;
+                
+                Manager.manager.hitPower += 10;
+                Manager.manager.clickDmgStat += 10;
                 Debug.Log("ClickDmgBoost");
                 Destroy(gameObject);
             }
@@ -43,5 +49,6 @@ public class Boosts : Manager
             }
         }
     }
+
 
 }

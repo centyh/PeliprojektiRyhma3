@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class Manager : MonoBehaviour
 {
+    public static Manager manager;
+
     //CLICKER
     public Text scoreText;
     public float currentScore;
@@ -36,6 +38,11 @@ public class Manager : MonoBehaviour
     public Text clickFactoryCost;
     public int clickFactoryPrice;
 
+    public Text abilityButtonText;
+    public Text abilityButtonCost;
+    public int abilityButtonPrice;
+
+    public GameObject abilityButton;
 
     //AMOUNT
     public Text clickDmgStatText;
@@ -45,8 +52,22 @@ public class Manager : MonoBehaviour
     public int autoClickStat;
     public float autoClickPerSecond;
 
+    //BUTTONS
+    public Button clickDmgButton;
 
+    private void Awake()
+    {
+        if (manager == null)
+        {
+            DontDestroyOnLoad(gameObject);
+            manager = this;
 
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     private void Start()
     {
@@ -55,6 +76,7 @@ public class Manager : MonoBehaviour
         scoreIncreasedPerSecond = 1;
         x = 0f;
         clickDmgStat = 1;
+
         
     }
 
@@ -79,7 +101,13 @@ public class Manager : MonoBehaviour
 
         moreClickDmgCost.text = "Cost: " + moreClickDmgPrice;
 
+        abilityButtonCost.text = "Cost: " + abilityButtonPrice;
 
+        clickFactoryCost.text = "Cost: " + clickFactoryPrice;
+
+
+
+        
     }
 
     public void Hit()
@@ -107,7 +135,9 @@ public class Manager : MonoBehaviour
             currentScore -= clickDmgPrice;
             hitPower += 1;
             clickDmgPrice += 25;
+            
         }
+        
     }
 
     public void MoreClickDamage()
@@ -141,6 +171,19 @@ public class Manager : MonoBehaviour
             luckyHitChance = hitPower * 5;
             Debug.Log("LUCKY CLICK");
             return;
+        }
+    }
+
+    public void AbilityButton()
+    {
+        if(currentScore >= abilityButtonPrice)
+        {
+            clickDmgStat += 5;
+            autoClickStat += 5;
+            hitPower += 5;
+            x += 5;
+            currentScore -= abilityButtonPrice;
+            abilityButton.SetActive(true);
         }
     }
 
