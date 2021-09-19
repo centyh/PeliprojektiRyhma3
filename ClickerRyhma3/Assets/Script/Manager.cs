@@ -7,6 +7,8 @@ public class Manager : MonoBehaviour
 {
     public static Manager manager;
 
+    
+
     //CLICKER
     public Text scoreText;
     public float currentScore;
@@ -18,27 +20,21 @@ public class Manager : MonoBehaviour
 
 
     //UPGRADES
-    public Text autoClickText;
     public Text autoClickCost;
     public int autoClickPrice;
 
-    public Text clickDmgText;
     public Text clickDmgCost;
     public int clickDmgPrice;
 
-    public Text luckyHitText;
     public Text luckyHitCost;
     public int luckyHitPrice;
 
-    public Text moreClickDmgText;
     public Text moreClickDmgCost;
     public int moreClickDmgPrice;
 
-    public Text clickFactoryText;
     public Text clickFactoryCost;
     public int clickFactoryPrice;
 
-    public Text abilityButtonText;
     public Text abilityButtonCost;
     public int abilityButtonPrice;
 
@@ -54,6 +50,11 @@ public class Manager : MonoBehaviour
 
     //BUTTONS
     public Button clickDmgButton;
+    public Button autoclickButton;
+    public Button moreClickDmgButton;
+    public Button clickFactoryButton;
+    public Button luckyHitButton;
+    public Button abilityUpgradeButton;
 
     private void Awake()
     {
@@ -61,12 +62,11 @@ public class Manager : MonoBehaviour
         {
             DontDestroyOnLoad(gameObject);
             manager = this;
-
         }
         else
         {
             Destroy(gameObject);
-        }
+        }    
     }
 
     private void Start()
@@ -77,7 +77,12 @@ public class Manager : MonoBehaviour
         x = 0f;
         clickDmgStat = 1;
 
-        
+        clickDmgButton.interactable = false;
+        autoclickButton.interactable = false;
+        moreClickDmgButton.interactable = false;
+        clickFactoryButton.interactable = false;
+        luckyHitButton.interactable = false;
+        abilityUpgradeButton.interactable = false;
     }
 
 
@@ -106,14 +111,14 @@ public class Manager : MonoBehaviour
         clickFactoryCost.text = "Cost: " + clickFactoryPrice;
 
 
-
-        
+        InteractableButtons();
     }
 
     public void Hit()
     {
         currentScore += hitPower;
         LuckyHit();
+        
     }
 
     public void AutoClickUpgrade()
@@ -134,9 +139,9 @@ public class Manager : MonoBehaviour
             clickDmgStat += 1;
             currentScore -= clickDmgPrice;
             hitPower += 1;
-            clickDmgPrice += 25;
-            
+            clickDmgPrice += 25;    
         }
+
         
     }
 
@@ -187,5 +192,69 @@ public class Manager : MonoBehaviour
         }
     }
 
+
+
+
+
+
+    public void InteractableButtons()
+    {
+        //BUTTON INTERACTABLES
+
+        //Click Damage Button
+        if (currentScore >= clickDmgPrice)
+        {
+            clickDmgButton.interactable = true;
+        }
+        else
+        {
+            clickDmgButton.interactable = false;
+        }
+        //AutoClick Button
+        if (currentScore >= autoClickPrice)
+        {
+            autoclickButton.interactable = true;
+        }
+        else
+        {
+            autoclickButton.interactable = false;
+        }
+        //More Click Damage Button
+        if (currentScore >= moreClickDmgPrice)
+        {
+            moreClickDmgButton.interactable = true;
+        }
+        else
+        {
+            moreClickDmgButton.interactable = false;
+        }
+        //Click Factory Button
+        if (currentScore >= clickFactoryPrice)
+        {
+            clickFactoryButton.interactable = true;
+        }
+        else
+        {
+            clickFactoryButton.interactable = false;
+        }
+        //Lucky Hit Button
+        if (currentScore >= luckyHitPrice)
+        {
+            luckyHitButton.interactable = true;
+        }
+        else
+        {
+            luckyHitButton.interactable = false;
+        }
+        //Ability Button
+        if (currentScore >= abilityButtonPrice)
+        {
+            abilityUpgradeButton.interactable = true;
+        }
+        else
+        {
+            abilityUpgradeButton.interactable = false;
+        }
+    }
 }
  

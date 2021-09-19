@@ -6,6 +6,8 @@ public class Boosts : MonoBehaviour
 {
     public float amountCoins;
 
+    private float dmgTimer;
+    
 
     private void Start()
     {
@@ -16,6 +18,8 @@ public class Boosts : MonoBehaviour
     {
         BoostButton();
         Destroy(gameObject, 4f);
+
+        
     }
 
     public void BoostButton()
@@ -36,11 +40,11 @@ public class Boosts : MonoBehaviour
 
             if (hit2D.collider.CompareTag("ClickDmgBoost"))
             {
-                
+                Debug.Log("ClickDmgBoost");
                 Manager.manager.hitPower += 10;
                 Manager.manager.clickDmgStat += 10;
-                Debug.Log("ClickDmgBoost");
                 Destroy(gameObject);
+                
             }
 
             else
@@ -49,6 +53,8 @@ public class Boosts : MonoBehaviour
             }
         }
     }
+
+
 
 
 }
