@@ -9,8 +9,8 @@ public class Boosts : MonoBehaviour
     public float currentDmg;
     public float currentDmgStat;
     public float normalDmg;
-    public float dmgBoostDuration = 5f;
-    private float dmgBoost = 2f;
+
+
 
     
 

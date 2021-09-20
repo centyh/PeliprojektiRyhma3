@@ -7,7 +7,9 @@ public class Manager : MonoBehaviour
 {
     public static Manager manager;
 
-    
+    //LUCKY HIT 
+    public float target = 0.05f;
+    public float luckyHitInc = 0.01f;
 
     //CLICKER
     public Text scoreText;
@@ -16,8 +18,8 @@ public class Manager : MonoBehaviour
     public float scoreIncreasedPerSecond;
     public float x;
 
-    public float luckyHitChance;
-
+    public float luckyHitChance = 1f;
+    public float luckyHitIncrease;
 
     //UPGRADES
     public Text autoClickCost;
@@ -47,6 +49,9 @@ public class Manager : MonoBehaviour
     public Text autoClickStatText;
     public int autoClickStat;
     public float autoClickPerSecond;
+
+    public Text luckyHitText;
+    public int luckyHitStat;
 
     //BUTTONS
     public Button clickDmgButton;
@@ -94,11 +99,12 @@ public class Manager : MonoBehaviour
         currentScore = currentScore + scoreIncreasedPerSecond;
 
         //UPGRADES
-        autoClickCost.text = "Cost: " + autoClickPrice + " ";
+        autoClickCost.text = "Cost: " + autoClickPrice;
 
-        clickDmgCost.text = "Cost: " + clickDmgPrice + " ";
+        clickDmgCost.text = "Cost: " + clickDmgPrice;
 
-        luckyHitCost.text = "Cost: " + luckyHitPrice + " ";
+        luckyHitCost.text = "Cost: " + luckyHitPrice;
+        luckyHitText.text = "Lucky Hit: " + target + "%";
 
         clickDmgStatText.text = "Click Damage: " + clickDmgStat;
 
@@ -116,9 +122,32 @@ public class Manager : MonoBehaviour
 
     public void Hit()
     {
-        currentScore += hitPower;
-        LuckyHit();
-        
+        //currentScore += hitPower;
+        float randValue;
+
+        randValue = Random.value;
+
+        if (randValue < (1f-target))
+        {
+            currentScore += hitPower;
+        }
+        else
+        {
+            Debug.Log("LUCKY HIT");
+            currentScore += hitPower * 1.5f;
+            return;
+        }
+    }
+
+    public void LuckyHitUpgrade()
+    {
+        if(currentScore >= luckyHitPrice)
+        {
+            target += luckyHitInc;
+            currentScore -= luckyHitPrice;
+            luckyHitPrice = luckyHitPrice * 2;
+            Debug.Log("lucky hit chance" + target);
+        }
     }
 
     public void AutoClickUpgrade()
@@ -156,6 +185,8 @@ public class Manager : MonoBehaviour
         }
     }
 
+
+
     public void ClickFactoryUpgrade()
     {
         if(currentScore >= clickFactoryPrice)
@@ -169,15 +200,12 @@ public class Manager : MonoBehaviour
         }
     }
 
+
     public void LuckyHit()
     {
-        if(Random.value <= .10f)
-        {
-            luckyHitChance = hitPower * 5;
-            Debug.Log("LUCKY CLICK");
-            return;
-        }
+        
     }
+
 
     public void AbilityButton()
     {
@@ -191,10 +219,6 @@ public class Manager : MonoBehaviour
             abilityButton.SetActive(true);
         }
     }
-
-
-
-
 
 
     public void InteractableButtons()
