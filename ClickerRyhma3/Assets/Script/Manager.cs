@@ -52,6 +52,9 @@ public class Manager : MonoBehaviour
     public Text clickTowerCost;
     public int clickTowerPrice;
 
+    public Text afkLabCost;
+    public int afkLabPrice;
+
     //AMOUNT
     public Text clickDmgStatText;
     public int clickDmgStat;
@@ -74,6 +77,7 @@ public class Manager : MonoBehaviour
     public Button clickFarmButton;
     public Button clickMineButton;
     public Button clickTowerButton;
+    public Button afkLabButton;
 
     private void Awake()
     {
@@ -106,6 +110,7 @@ public class Manager : MonoBehaviour
         clickFarmButton.interactable = false;
         clickMineButton.interactable = false;
         clickTowerButton.interactable = false;
+        afkLabButton.interactable = false;
     }
 
 
@@ -143,6 +148,8 @@ public class Manager : MonoBehaviour
         clickMineCost.text = "Cost: " + clickMinePrice;
 
         clickTowerCost.text = "Cost: " + clickTowerPrice;
+
+        afkLabCost.text = "Cost: " + afkLabPrice;
 
         InteractableButtons();
     }
@@ -295,6 +302,17 @@ public class Manager : MonoBehaviour
         }
     }
 
+    public void AfkLabUpgrade()
+    {
+        if(currentScore >= afkLabPrice)
+        {
+            autoClickStat += 100;
+            x += 100;
+            currentScore -= afkLabPrice;
+            afkLabPrice += 75000;
+        }
+    }
+
 
     public void InteractableButtons()
     {
@@ -389,6 +407,15 @@ public class Manager : MonoBehaviour
         else
         {
             clickTowerButton.interactable = false;
+        }
+        //AFK Lab
+        if(currentScore >= afkLabPrice)
+        {
+            afkLabButton.interactable = true;
+        }
+        else
+        {
+            afkLabButton.interactable = false;
         }
     }
 }
