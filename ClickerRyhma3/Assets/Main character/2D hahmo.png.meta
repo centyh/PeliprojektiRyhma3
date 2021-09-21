@@ -1,0 +1,357 @@
+fileFormatVersion: 2
+guid: e1439af968548a24f969fb34f5f8e611
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4203986486376322119
+    second: Main character head
+  - first:
+      213: -4844884089613832277
+    second: Main character left hand
+  - first:
+      213: -7846069321425349092
+    second: Main character right hand
+  - first:
+      213: 5156180866427579830
+    second: Main character left leg
+  - first:
+      213: 8737788658033277865
+    second: Main character right leg
+  - first:
+      213: -1873315716770537241
+    second: Main character body
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Main character head
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 732
+        width: 270
+        height: 310
+      alignment: 9
+      pivot: {x: 0.48003992, y: 0.12043634}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: bone_1
+        position: {x: 134.30072, y: 297.02258, z: 0}
+        rotation: {x: 0, y: 0, z: -0.7127495, w: 0.7014187}
+        length: 281.53998
+        parentId: -1
+      - name: bone_2
+        position: {x: 1143.0226, y: -389.59406, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 1}
+        length: 0
+        parentId: -1
+      - name: bone_3
+        position: {x: 596.49097, y: -110.44092, z: 0}
+        rotation: {x: 0, y: 0, z: -0.33769074, w: 0.9412571}
+        length: 147.6383
+        parentId: -1
+      - name: bone_4
+        position: {x: 355.15015, y: -504.29578, z: 0}
+        rotation: {x: 0, y: 0, z: -0.67803186, w: 0.7350325}
+        length: 166.46266
+        parentId: -1
+      - name: bone_5
+        position: {x: -80.604095, y: -505.97174, z: 0}
+        rotation: {x: 0, y: 0, z: -0.72109914, w: 0.6928319}
+        length: 167.7318
+        parentId: -1
+      - name: bone_6
+        position: {x: -362.16833, y: -120.496826, z: 0}
+        rotation: {x: 0, y: 0, z: -0.9284767, w: 0.37139064}
+        length: 145.81007
+        parentId: -1
+      - name: bone_7
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: -0, z: 0.76503557, w: 0.643988}
+        length: 0.95475495
+        parentId: 1
+      - name: bone_8
+        position: {x: 0.9547444, y: 0.000047035475, z: 0}
+        rotation: {x: 0, y: -0, z: 0.9957118, w: 0.09250969}
+        length: 120.68208
+        parentId: 6
+      - name: bone_9
+        position: {x: 120.68206, y: 0.000017717026, z: 0}
+        rotation: {x: 0, y: 0, z: 0.027761, w: 0.99961466}
+        length: 161.03339
+        parentId: 7
+      spriteID: 9bb2ff6709078a5c0800000000000000
+      internalID: -4203986486376322119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main character left hand
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 499
+        width: 138
+        height: 125
+      alignment: 9
+      pivot: {x: 0.83845353, y: 0.85928124}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf20acf69383ccb0800000000000000
+      internalID: -4844884089613832277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main character right hand
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 514
+        width: 138
+        height: 125
+      alignment: 9
+      pivot: {x: 0.1485286, y: 0.85928124}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: bone_1
+        position: {x: 10.742432, y: 114.92218, z: 0}
+        rotation: {x: 0, y: 0, z: -0.36320257, w: 0.93171024}
+        length: 151.29337
+        parentId: -1
+      spriteID: c161a5db5892d1390800000000000000
+      internalID: -7846069321425349092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main character left leg
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 45
+        width: 128
+        height: 209
+      alignment: 9
+      pivot: {x: 0.5359277, y: 0.8197789}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bde41ded2f6e8740800000000000000
+      internalID: 5156180866427579830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main character right leg
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 45
+        width: 129
+        height: 215
+      alignment: 9
+      pivot: {x: 0.51694703, y: 0.8116216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9abb28c5d7cd24970800000000000000
+      internalID: 8737788658033277865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main character body
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 55
+        width: 255
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: bone_1
+        position: {x: 119.95203, y: 7.155739, z: 0}
+        rotation: {x: 0, y: 0, z: 0.6977442, w: 0.71634704}
+        length: 136.57425
+        parentId: -1
+      - name: bone_2
+        position: {x: 136.57428, y: -0.0000018789541, z: 0}
+        rotation: {x: 0, y: 0, z: 0.019326413, w: 0.99981326}
+        length: 145.52003
+        parentId: 0
+      - name: bone_3
+        position: {x: -649.8084, y: 2.6647186, z: 0}
+        rotation: {x: 0, y: 0, z: 0.7105644, w: 0.7036323}
+        length: 91.621155
+        parentId: -1
+      - name: bone_4
+        position: {x: 91.621155, y: 0.000008912432, z: 0}
+        rotation: {x: 0, y: 0, z: 0.020076025, w: 0.9997985}
+        length: 89.932556
+        parentId: 2
+      - name: bone_5
+        position: {x: -1106.994, y: 8.05394, z: 0}
+        rotation: {x: 0, y: 0, z: 0.718661, w: 0.6953606}
+        length: 81.78092
+        parentId: -1
+      - name: bone_6
+        position: {x: 81.78091, y: -0.000055160184, z: 0}
+        rotation: {x: 0, y: 0, z: -0.068613544, w: 0.99764335}
+        length: 94.827484
+        parentId: 4
+      - name: bone_7
+        position: {x: -1496.5735, y: 454.70197, z: 0}
+        rotation: {x: 0, y: 0, z: 0.3598704, w: 0.9330023}
+        length: 77.57898
+        parentId: -1
+      - name: bone_8
+        position: {x: 82.31182, y: 0.23270969, z: 0}
+        rotation: {x: 0, y: 0, z: -0.026100956, w: 0.99965936}
+        length: 75.33142
+        parentId: 6
+      - name: bone_9
+        position: {x: -310.28748, y: 475.1198, z: 0}
+        rotation: {x: 0, y: 0, z: 0.9294588, w: 0.368926}
+        length: 64.17615
+        parentId: -1
+      - name: bone_10
+        position: {x: 64.17615, y: -0.000018367795, z: 0}
+        rotation: {x: 0, y: 0, z: 0.029807337, w: 0.9995557}
+        length: 85.44731
+        parentId: 8
+      - name: bone_11
+        position: {x: -883.3413, y: 687.994, z: 0}
+        rotation: {x: 0, y: 0, z: 0.7103429, w: 0.7038558}
+        length: 293.72488
+        parentId: -1
+      spriteID: 7e06cb5e745a006e0800000000000000
+      internalID: -1873315716770537241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
