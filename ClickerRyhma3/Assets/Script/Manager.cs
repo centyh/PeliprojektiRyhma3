@@ -7,6 +7,7 @@ public class Manager : MonoBehaviour
 {
     public static Manager manager;
 
+
     //LUCKY HIT 
     public float target = 0.05f;
     public float luckyHitInc = 0.01f;
@@ -18,8 +19,6 @@ public class Manager : MonoBehaviour
     public float scoreIncreasedPerSecond;
     public float x;
 
-    public float luckyHitChance = 1f;
-    public float luckyHitIncrease;
 
     //UPGRADES
     public Text autoClickCost;
@@ -39,8 +38,19 @@ public class Manager : MonoBehaviour
 
     public Text abilityButtonCost;
     public int abilityButtonPrice;
-
     public GameObject abilityButton;
+
+    public Text clickCastleCost;
+    public int clickCastlePrice;
+
+    public Text clickFarmCost;
+    public int clickFarmPrice;
+
+    public Text clickMineCost;
+    public int clickMinePrice;
+
+    public Text clickTowerCost;
+    public int clickTowerPrice;
 
     //AMOUNT
     public Text clickDmgStatText;
@@ -60,6 +70,10 @@ public class Manager : MonoBehaviour
     public Button clickFactoryButton;
     public Button luckyHitButton;
     public Button abilityUpgradeButton;
+    public Button clickCastleButton;
+    public Button clickFarmButton;
+    public Button clickMineButton;
+    public Button clickTowerButton;
 
     private void Awake()
     {
@@ -88,11 +102,17 @@ public class Manager : MonoBehaviour
         clickFactoryButton.interactable = false;
         luckyHitButton.interactable = false;
         abilityUpgradeButton.interactable = false;
+        clickCastleButton.interactable = false;
+        clickFarmButton.interactable = false;
+        clickMineButton.interactable = false;
+        clickTowerButton.interactable = false;
     }
 
 
     void Update()
     {
+        //SCORE
+
         //CLICKER
         scoreText.text = (int)currentScore + " ";
         scoreIncreasedPerSecond = x * Time.deltaTime;
@@ -116,6 +136,13 @@ public class Manager : MonoBehaviour
 
         clickFactoryCost.text = "Cost: " + clickFactoryPrice;
 
+        clickCastleCost.text = "Cost: " + clickCastlePrice;
+
+        clickFarmCost.text = "Cost: " + clickFarmPrice;
+
+        clickMineCost.text = "Cost: " + clickMinePrice;
+
+        clickTowerCost.text = "Cost: " + clickTowerPrice;
 
         InteractableButtons();
     }
@@ -201,11 +228,6 @@ public class Manager : MonoBehaviour
     }
 
 
-    public void LuckyHit()
-    {
-        
-    }
-
 
     public void AbilityButton()
     {
@@ -217,6 +239,59 @@ public class Manager : MonoBehaviour
             x += 5;
             currentScore -= abilityButtonPrice;
             abilityButton.SetActive(true);
+            abilityUpgradeButton.interactable = false;
+        }
+    }
+
+    public void ClickCastleUpgrade()
+    {
+        if(currentScore >= clickCastlePrice)
+        {
+            clickDmgStat += 15;
+            autoClickStat += 15;
+            hitPower += 15;
+            x += 15;
+            currentScore -= clickCastlePrice;
+            clickCastlePrice += 10000;
+        }
+    }
+
+    public void ClickFarmUpgrade()
+    {
+        if(currentScore >= clickFarmPrice)
+        {
+            clickDmgStat += 20;
+            autoClickStat += 20;
+            hitPower += 20;
+            x += 20;
+            currentScore -= clickFarmPrice;
+            clickFarmPrice += 20000;
+        }
+    }
+
+    public void ClickMineUpgrade()
+    {
+        if(currentScore >= clickMinePrice)
+        {
+            clickDmgStat += 30;
+            autoClickStat += 30;
+            hitPower += 30;
+            x += 30;
+            currentScore -= clickMinePrice;
+            clickMinePrice += 30000;
+        }
+    }
+
+    public void ClickTowerUpgrade()
+    {
+        if(currentScore >= clickTowerPrice)
+        {
+            clickDmgStat += 50;
+            autoClickStat += 50;
+            hitPower += 50;
+            x += 50;
+            currentScore -= clickTowerPrice;
+            clickTowerPrice += 50000;
         }
     }
 
@@ -278,6 +353,42 @@ public class Manager : MonoBehaviour
         else
         {
             abilityUpgradeButton.interactable = false;
+        }
+        //Click Castle
+        if(currentScore >= clickCastlePrice)
+        {
+            clickCastleButton.interactable = true;
+        }
+        else
+        {
+            clickCastleButton.interactable = false;
+        }
+        //Click Farm
+        if (currentScore >= clickFarmPrice)
+        {
+            clickFarmButton.interactable = true;
+        }
+        else
+        {
+            clickFarmButton.interactable = false;
+        }
+        //Click Mine
+        if (currentScore >= clickMinePrice)
+        {
+            clickMineButton.interactable = true;
+        }
+        else
+        {
+            clickMineButton.interactable = false;
+        }
+        //Click Tower
+        if (currentScore >= clickTowerPrice)
+        {
+            clickTowerButton.interactable = true;
+        }
+        else
+        {
+            clickTowerButton.interactable = false;
         }
     }
 }

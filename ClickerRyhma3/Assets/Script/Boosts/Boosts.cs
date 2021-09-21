@@ -40,6 +40,7 @@ public class Boosts : MonoBehaviour
                 amountCoins = Random.Range(50, 250);
                 Manager.manager.currentScore += amountCoins;
                 Debug.Log("CoinBoost");
+                Destroy(gameObject);
                 
             }
 
@@ -47,6 +48,7 @@ public class Boosts : MonoBehaviour
             {
                 Manager.manager.hitPower += 10;
                 Manager.manager.clickDmgStat += 10;
+                Destroy(gameObject);
             }
             else
             {

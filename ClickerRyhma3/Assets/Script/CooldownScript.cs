@@ -20,6 +20,7 @@ public class CooldownScript : MonoBehaviour
         imageCooldown.fillAmount = 0f;
     }
 
+
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
