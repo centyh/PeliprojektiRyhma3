@@ -10,21 +10,19 @@ public class Boosts : MonoBehaviour
     public float currentDmgStat;
     public float normalDmg;
 
-
-
+    private float dmgBoostTimer = 5f;
+    public bool dmgBoostActive = false;
     
 
     private void Start()
     {
-        
+
     }
 
     void Update()
     {
         BoostButton();
         Destroy(gameObject, 4f);
-
-        
     }
 
     public void BoostButton()
@@ -43,11 +41,13 @@ public class Boosts : MonoBehaviour
                 Destroy(gameObject);
                 
             }
-
             if (hit2D.collider.CompareTag("ClickDmgBoost"))
             {
-                Manager.manager.hitPower += 10;
-                Manager.manager.clickDmgStat += 10;
+                StartCoroutine(DmgBoostCoroutine());
+                
+                new WaitForSeconds(5);
+                Debug.Log("Dmg boost loppui");
+
                 Destroy(gameObject);
             }
             else
@@ -57,7 +57,20 @@ public class Boosts : MonoBehaviour
         }
     }
 
+    void DmgBoostActive()
+    {
+        
+    }
 
+    IEnumerator DmgBoostCoroutine()
+    {
+        Manager.manager.hitPower += 50;
+        Manager.manager.clickDmgStat += 50;
+        Debug.Log("DMG BOOST AKTIIVINEN");
+
+        yield return new WaitForSeconds(dmgBoostTimer);
+
+    }
 
 
 }

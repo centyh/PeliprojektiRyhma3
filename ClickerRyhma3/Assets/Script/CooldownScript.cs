@@ -21,7 +21,7 @@ public class CooldownScript : MonoBehaviour
     }
 
 
-    private void Update()
+    public void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
@@ -31,9 +31,10 @@ public class CooldownScript : MonoBehaviour
         {
             ApplyCooldown();
         }
+
     }
 
-    void ApplyCooldown()
+    public void ApplyCooldown()
     {
         cooldownTimer -= Time.deltaTime;
 

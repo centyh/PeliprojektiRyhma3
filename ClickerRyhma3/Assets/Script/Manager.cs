@@ -6,7 +6,9 @@ using UnityEngine.UI;
 public class Manager : MonoBehaviour
 {
     public static Manager manager;
+    private Animator anim;
 
+    [SerializeField] GameObject coinPrefab;
 
     //LUCKY HIT 
     public float target = 0.05f;
@@ -94,6 +96,8 @@ public class Manager : MonoBehaviour
 
     private void Start()
     {
+        anim = GetComponent<Animator>();
+
         currentScore = 0;
         hitPower = 1;
         scoreIncreasedPerSecond = 1;
@@ -151,12 +155,21 @@ public class Manager : MonoBehaviour
 
         afkLabCost.text = "Cost: " + afkLabPrice;
 
+        if(currentScore > 1000)
+        {
+            scoreText.text = (currentScore / 1000).ToString("F1") + "k";
+        }
+        
+
+
         InteractableButtons();
     }
 
     public void Hit()
     {
-        //currentScore += hitPower;
+        CoinPopUp();
+        
+
         float randValue;
 
         randValue = Random.value;
@@ -313,6 +326,15 @@ public class Manager : MonoBehaviour
         }
     }
 
+    public void CoinPopUp()
+    {
+        Vector3 mousePos = Input.mousePosition;
+        mousePos.z = 2.0f;
+        Vector3 objectPos = Camera.main.ScreenToWorldPoint(mousePos);
+        Instantiate(coinPrefab, objectPos, Quaternion.identity);
+        anim.SetTrigger("OnClick");
+        
+    }
 
     public void InteractableButtons()
     {
