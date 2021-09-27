@@ -159,8 +159,6 @@ public class Manager : MonoBehaviour
         {
             scoreText.text = (currentScore / 1000).ToString("F1") + "k";
         }
-        
-
 
         InteractableButtons();
     }

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CoinBoost
   - ClickDmgBoost
+  - AbilityButton
   layers:
   - Default
   - TransparentFX
