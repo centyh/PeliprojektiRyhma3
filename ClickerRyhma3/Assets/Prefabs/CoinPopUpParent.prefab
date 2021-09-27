@@ -55,6 +55,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: CoinPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 7511782383908003068, guid: 2d61d83fba36e164696a4c1181b4ee63, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -3756960099750262998, guid: 02029cd61adce034784aaf0f3a74caeb, type: 3}
+    - target: {fileID: 7511782383908003068, guid: 2d61d83fba36e164696a4c1181b4ee63, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7511782383908003068, guid: 2d61d83fba36e164696a4c1181b4ee63, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7511782383908003068, guid: 2d61d83fba36e164696a4c1181b4ee63, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7724733521370124623, guid: 2d61d83fba36e164696a4c1181b4ee63, type: 3}
       propertyPath: m_RootOrder
       value: 0
