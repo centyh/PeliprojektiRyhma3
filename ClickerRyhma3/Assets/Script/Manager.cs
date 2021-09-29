@@ -133,7 +133,7 @@ public class Manager : MonoBehaviour
         clickDmgCost.text = "Cost: " + clickDmgPrice;
 
         luckyHitCost.text = "Cost: " + luckyHitPrice;
-        luckyHitText.text = "Lucky Hit: " + target + "%";
+        luckyHitText.text = "Lucky Hit Chance: " + target + "%";
 
         clickDmgStatText.text = "Click Damage: " + clickDmgStat;
 
