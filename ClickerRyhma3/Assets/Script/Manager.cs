@@ -133,7 +133,7 @@ public class Manager : MonoBehaviour
         clickDmgCost.text = "Cost: " + clickDmgPrice;
 
         luckyHitCost.text = "Cost: " + luckyHitPrice;
-        luckyHitText.text = "Lucky Hit Chance: " + target + "%";
+        luckyHitText.text = "Lucky Hit Chance: " + target * 100 + "%";
 
         clickDmgStatText.text = "Click Damage: " + clickDmgStat;
 
@@ -163,23 +163,24 @@ public class Manager : MonoBehaviour
         InteractableButtons();
     }
 
+
     public void Hit()
     {
         CoinPopUp();
-        
+
 
         float randValue;
 
         randValue = Random.value;
 
-        if (randValue < (1f-target))
+        if (randValue < (1f - target))
         {
-            currentScore += hitPower;
+            currentScore += hitPower + GetComponent<Boosts>().addedBoostAmount;
         }
         else
         {
             Debug.Log("LUCKY HIT");
-            currentScore += hitPower * 1.5f;
+            currentScore += (hitPower + GetComponent<Boosts>().addedBoostAmount) * 1.5f;
             return;
         }
     }

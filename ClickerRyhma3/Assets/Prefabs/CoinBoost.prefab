@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 5392207739295328088}
   - component: {fileID: 6067978904640415484}
   - component: {fileID: 7412073821759711226}
-  - component: {fileID: 1866903504048514018}
   m_Layer: 6
   m_Name: CoinBoost
   m_TagString: CoinBoost
@@ -100,42 +99,3 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &1866903504048514018
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1174428759471960891}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8f9ef3adaab7c94aa7ac58d57799e77, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  currentScore: 0
-  hitPower: 0
-  scoreIncreasedPerSecond: 0
-  x: 0
-  luckyHitChance: 0
-  autoClickText: {fileID: 0}
-  autoClickCost: {fileID: 0}
-  autoClickPrice: 0
-  clickDmgText: {fileID: 0}
-  clickDmgCost: {fileID: 0}
-  clickDmgPrice: 0
-  luckyHitText: {fileID: 0}
-  luckyHitCost: {fileID: 0}
-  luckyHitPrice: 0
-  moreClickDmgText: {fileID: 0}
-  moreClickDmgCost: {fileID: 0}
-  moreClickDmgPrice: 0
-  clickFactoryText: {fileID: 0}
-  clickFactoryCost: {fileID: 0}
-  clickFactoryPrice: 0
-  clickDmgStatText: {fileID: 0}
-  clickDmgStat: 0
-  autoClickStatText: {fileID: 0}
-  autoClickStat: 0
-  autoClickPerSecond: 0
-  amountCoins: 0

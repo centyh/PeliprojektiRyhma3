@@ -124,8 +124,8 @@ TextureImporter:
       name: Character_hats_PNG_1920X1080_without_eyes_1
       rect:
         serializedVersion: 2
-        x: 809
-        y: 384
+        x: 781
+        y: 382
         width: 342
         height: 312
       alignment: 9
