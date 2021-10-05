@@ -40,7 +40,8 @@ public class BoostSpawner : MonoBehaviour
             screenY = Random.Range(c.bounds.min.y, c.bounds.max.y);
             pos = new Vector2(screenX, screenY);
 
-            Instantiate(toSpawn, pos, toSpawn.transform.rotation);
+            Destroy(Instantiate(toSpawn, pos, toSpawn.transform.rotation), 4f);
+            
             
         }
 
