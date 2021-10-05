@@ -1,44 +1,62 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class OutfitChanger : MonoBehaviour
 {
-    public SpriteRenderer bodyPart;
+    //Buttons
+    public Button pirateHat;
+    public Button pirateHat2;
+    public Button pirateHat3;
 
+    //Prices
+    public int pirateHatPrice;
+    public int pirateHat2Price;
+    public int pirateHat3Price;
+
+    
+
+
+    [Header("Head")]
+    public SpriteRenderer headPart;
     public List<Sprite> options = new List<Sprite>();
 
-    public int currentOption = 0;
-
-    public void NextOption()
+    void Start()
     {
-        currentOption++;
-        if (currentOption >= options.Count)
-        {
-            currentOption = 0;
-        }
-
-        bodyPart.sprite = options[currentOption];
-    }
-
-    public void PreviousOption()
-    {
-        currentOption--;
-        if (currentOption <= options.Count)
-        {
-            currentOption = options.Count - 1;
-        }
-
-        bodyPart.sprite = options[currentOption];
+        pirateHat.interactable = false;
     }
 
     public void PirateHat()
     {
-        bodyPart.sprite = options[0];
+        if(Manager.manager.currentScore >= pirateHatPrice)
+        {
+            headPart.sprite = options[0];
+        }
+        
     }
 
     public void PirateHat2()
     {
-        bodyPart.sprite = options[1];
+        headPart.sprite = options[1];
+    }
+
+    public void PirateHat3()
+    {
+        headPart.sprite = options[2];
+    }
+
+
+    void Interactables()
+    {
+        if(Manager.manager.currentScore >= pirateHatPrice)
+        {
+            pirateHat.interactable = true;
+        }
+        else
+        {
+            pirateHat.interactable = false;
+        }
     }
 }

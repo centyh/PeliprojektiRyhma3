@@ -1,0 +1,468 @@
+fileFormatVersion: 2
+guid: 2719a860448aa1242b1f46c5f6f7eeaa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1299139978841824306
+    second: 2D_character_body_skins.psd_osissa.png_1920x1080_0
+  - first:
+      213: 499286551136875762
+    second: 2D_character_body_skins.psd_osissa.png_1920x1080_1
+  - first:
+      213: 2076403447116255767
+    second: 2D_character_body_skins.psd_osissa.png_1920x1080_2
+  - first:
+      213: 6080336357556478025
+    second: 2D_character_body_skins.psd_osissa.png_1920x1080_3
+  - first:
+      213: 202130669039780540
+    second: 2D_character_body_skins.psd_osissa.png_1920x1080_4
+  - first:
+      213: 1742391594144771010
+    second: 2D_character_body_skins.psd_osissa.png_1920x1080_5
+  - first:
+      213: -3751651297588543478
+    second: 2D_character_body_skins.psd_osissa.png_1920x1080_6
+  - first:
+      213: -6279240857468394264
+    second: 2D_character_body_skins.psd_osissa.png_1920x1080_7
+  - first:
+      213: 7810355830650667077
+    second: 2D_character_body_skins.psd_osissa.png_1920x1080_8
+  - first:
+      213: -5300442798306697272
+    second: 2D_character_body_skins.psd_osissa.png_1920x1080_9
+  - first:
+      213: -6150943064006617590
+    second: 2D_character_body_skins.psd_osissa.png_1920x1080_10
+  - first:
+      213: 2407849750780886540
+    second: 2D_character_body_skins.psd_osissa.png_1920x1080_11
+  - first:
+      213: -5751325922814316844
+    second: 2D_character_body_skins.psd_osissa.png_1920x1080_12
+  - first:
+      213: 2339956305377833454
+    second: 2D_character_body_skins.psd_osissa.png_1920x1080_13
+  - first:
+      213: 7846056082855587225
+    second: 2D_character_body_skins.psd_osissa.png_1920x1080_14
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 2D_character_body_skins.psd_osissa.png_1920x1080_0
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 824
+        width: 140
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c10687de8770210800000000000000
+      internalID: 1299139978841824306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_character_body_skins.psd_osissa.png_1920x1080_1
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 833
+        width: 138
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4b4a11972dde600800000000000000
+      internalID: 499286551136875762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_character_body_skins.psd_osissa.png_1920x1080_2
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 862
+        width: 142
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712d2c31fedd0dc10800000000000000
+      internalID: 2076403447116255767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_character_body_skins.psd_osissa.png_1920x1080_3
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 846
+        width: 181
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940eb03c3b1b16450800000000000000
+      internalID: 6080336357556478025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_character_body_skins.psd_osissa.png_1920x1080_4
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 808
+        width: 138
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb20456c5cc1ec200800000000000000
+      internalID: 202130669039780540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_character_body_skins.psd_osissa.png_1920x1080_5
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 819
+        width: 139
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb20ac5ce73e2810800000000000000
+      internalID: 1742391594144771010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_character_body_skins.psd_osissa.png_1920x1080_6
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 370
+        width: 256
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a000a1e95057febc0800000000000000
+      internalID: -3751651297588543478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_character_body_skins.psd_osissa.png_1920x1080_7
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 378
+        width: 255
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e42a7f75b7abd8a0800000000000000
+      internalID: -6279240857468394264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_character_body_skins.psd_osissa.png_1920x1080_8
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 364
+        width: 255
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54085573f35f36c60800000000000000
+      internalID: 7810355830650667077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_character_body_skins.psd_osissa.png_1920x1080_9
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 96
+        width: 100
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cfd6ae9b5b0176b0800000000000000
+      internalID: -5300442798306697272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_character_body_skins.psd_osissa.png_1920x1080_10
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 91
+        width: 100
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a069b345fd573aaa0800000000000000
+      internalID: -6150943064006617590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_character_body_skins.psd_osissa.png_1920x1080_11
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 82
+        width: 102
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ebecb47966a6120800000000000000
+      internalID: 2407849750780886540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_character_body_skins.psd_osissa.png_1920x1080_12
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 76
+        width: 102
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de28278b8f2f20b0800000000000000
+      internalID: -5751325922814316844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_character_body_skins.psd_osissa.png_1920x1080_13
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 43
+        width: 123
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee13bf3bcd1397020800000000000000
+      internalID: 2339956305377833454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_character_body_skins.psd_osissa.png_1920x1080_14
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 41
+        width: 123
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d666aef6ac2ec60800000000000000
+      internalID: 7846056082855587225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

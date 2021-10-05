@@ -11,6 +11,9 @@ TextureImporter:
   - first:
       213: 8864593984260950835
     second: Character_hats_PNG_1920X1080_without_eyes_2
+  - first:
+      213: 3979827759141985045
+    second: Character_hats_PNG_1920X1080_without_eyes_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -104,11 +107,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 59
-        y: 357
+        y: 359
         width: 388
         height: 405
       alignment: 9
-      pivot: {x: 0.5000001, y: 0.09}
+      pivot: {x: 0.4883216, y: 0.09}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -124,12 +127,12 @@ TextureImporter:
       name: Character_hats_PNG_1920X1080_without_eyes_1
       rect:
         serializedVersion: 2
-        x: 781
-        y: 382
-        width: 342
-        height: 312
+        x: 746
+        y: 380
+        width: 411
+        height: 405
       alignment: 9
-      pivot: {x: 0.3643283, y: 0.14102681}
+      pivot: {x: 0.46885753, y: 0.09790213}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -146,11 +149,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1390
-        y: 352
+        y: 354
         width: 396
         height: 482
       alignment: 9
-      pivot: {x: 0.4959609, y: 0.09528234}
+      pivot: {x: 0.48428223, y: 0.086680815}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -158,6 +161,27 @@ TextureImporter:
       bones: []
       spriteID: 33b40f5134d550b70800000000000000
       internalID: 8864593984260950835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_hats_PNG_1920X1080_without_eyes_3
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 358
+        width: 391
+        height: 405
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b95eac2403b3730800000000000000
+      internalID: 3979827759141985045
       vertices: []
       indices: 
       edges: []
