@@ -23,6 +23,21 @@ public class OutfitChanger : MonoBehaviour
     public SpriteRenderer headPart;
     public List<Sprite> options = new List<Sprite>();
 
+    [Header("Torso")]
+    public SpriteRenderer torsoPart;
+    public List<Sprite> torsoSprite = new List<Sprite>();
+
+    [Header("Arms")]
+    public SpriteRenderer leftArmPart;
+    public SpriteRenderer rightArmPart;
+    public List<Sprite> armSprite = new List<Sprite>();
+
+    [Header("Legs")]
+    public SpriteRenderer leftLegPart;
+    public SpriteRenderer rightLegPart; 
+    public List<Sprite> legsSprite = new List<Sprite>();
+
+
     void Start()
     {
         pirateHat.interactable = false;
@@ -47,6 +62,24 @@ public class OutfitChanger : MonoBehaviour
         headPart.sprite = options[2];
     }
 
+    public void PirateOutfit()
+    {
+        torsoPart.sprite = torsoSprite[0];
+        leftArmPart.sprite = armSprite[0];
+        rightArmPart.sprite = armSprite[1];
+        leftLegPart.sprite = legsSprite[0];
+        rightLegPart.sprite = legsSprite[1];
+    }
+
+    public void PirateOutfit2()
+    {
+
+    }
+
+    public void PirateOutfit3()
+    {
+
+    }
 
     void Interactables()
     {
