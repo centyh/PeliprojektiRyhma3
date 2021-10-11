@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class Manager : MonoBehaviour
 {
+    public AudioSource source;
+    public AudioClip paperSound;
+
     public static Manager manager;
     private Animator anim;
 
