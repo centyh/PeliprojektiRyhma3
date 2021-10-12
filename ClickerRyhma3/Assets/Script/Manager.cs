@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class Manager : MonoBehaviour
 {
-    public AudioSource source;
     public AudioClip paperSound;
 
     public static Manager manager;
@@ -120,7 +119,6 @@ public class Manager : MonoBehaviour
         afkLabButton.interactable = false;
     }
 
-
     void Update()
     {
         //SCORE
@@ -165,7 +163,6 @@ public class Manager : MonoBehaviour
 
         InteractableButtons();
     }
-
 
     public void Hit()
     {
@@ -217,7 +214,7 @@ public class Manager : MonoBehaviour
             clickDmgStat += 1;
             currentScore -= clickDmgPrice;
             hitPower += 1;
-            clickDmgPrice += 25;    
+            clickDmgPrice += 25;
         }
 
         

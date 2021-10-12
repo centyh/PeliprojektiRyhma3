@@ -65,10 +65,6 @@ public class OutfitChanger : MonoBehaviour
     public void PirateOutfit()
     {
         torsoPart.sprite = torsoSprite[0];
-        leftArmPart.sprite = armSprite[0];
-        rightArmPart.sprite = armSprite[1];
-        leftLegPart.sprite = legsSprite[0];
-        rightLegPart.sprite = legsSprite[1];
     }
 
     public void PirateOutfit2()
