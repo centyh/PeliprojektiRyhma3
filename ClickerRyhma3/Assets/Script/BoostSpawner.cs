@@ -9,10 +9,13 @@ public class BoostSpawner : MonoBehaviour
     public List<GameObject> spawnPool;
     public GameObject quad;
 
-    
-    public float spawnNumber;
-    public float spawnTimer;
+    float spawnTime = 70f;
+    float curSpawnTime;
 
+    private void Start()
+    {
+        curSpawnTime = spawnTime;
+    }
 
     void Update()
     {
@@ -26,12 +29,14 @@ public class BoostSpawner : MonoBehaviour
         GameObject toSpawn;
         MeshCollider c = quad.GetComponent<MeshCollider>();
 
-        spawnTimer = Random.Range(0, 50000);
+        //spawnTimer = Random.Range(0, 50000);
 
         float screenX, screenY;
         Vector2 pos;
 
-        if(spawnNumber == spawnTimer)
+        curSpawnTime -= Time.deltaTime;
+
+        if(curSpawnTime <= 0)
         {
             randomItem = Random.Range(0, spawnPool.Count);
             toSpawn = spawnPool[randomItem];
@@ -41,7 +46,8 @@ public class BoostSpawner : MonoBehaviour
             pos = new Vector2(screenX, screenY);
 
             Destroy(Instantiate(toSpawn, pos, toSpawn.transform.rotation), 4f);
-            
+
+            curSpawnTime = spawnTime;
             
         }
 
