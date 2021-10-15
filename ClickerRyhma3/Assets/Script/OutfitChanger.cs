@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class OutfitChanger : MonoBehaviour
 {
+    bool isBuy;
+
     //Buttons
     public Button pirateHat;
     public Button pirateHat2;
@@ -40,21 +42,28 @@ public class OutfitChanger : MonoBehaviour
 
     void Start()
     {
-        pirateHat.interactable = false;
+        //pirateHat.interactable = false;
     }
 
     public void PirateHat()
     {
-        if(Manager.manager.currentScore >= pirateHatPrice)
+        if(Manager.manager.currentScore >= pirateHatPrice && !isBuy)
         {
             headPart.sprite = options[0];
+            Manager.manager.currentScore -= pirateHatPrice;
+            isBuy = true;
         }
         
     }
 
     public void PirateHat2()
     {
-        headPart.sprite = options[1];
+        if (Manager.manager.currentScore >= pirateHat2Price && !isBuy)
+        {
+            headPart.sprite = options[1];
+            Manager.manager.currentScore -= pirateHat2Price;
+            isBuy = true;
+        }
     }
 
     public void PirateHat3()
