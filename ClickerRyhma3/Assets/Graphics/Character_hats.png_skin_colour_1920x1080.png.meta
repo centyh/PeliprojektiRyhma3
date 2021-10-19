@@ -103,12 +103,12 @@ TextureImporter:
       name: Character_hats.png_skin_colour_1920x1080_0
       rect:
         serializedVersion: 2
-        x: 167
+        x: 152
         y: 384
-        width: 388
+        width: 418
         height: 404
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.4883216, y: 0.09}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -124,12 +124,12 @@ TextureImporter:
       name: Character_hats.png_skin_colour_1920x1080_1
       rect:
         serializedVersion: 2
-        x: 917
+        x: 846
         y: 411
-        width: 342
-        height: 311
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 413
+        height: 360
+      alignment: 9
+      pivot: {x: 0.48395914, y: 0.09828805}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -145,12 +145,12 @@ TextureImporter:
       name: Character_hats.png_skin_colour_1920x1080_2
       rect:
         serializedVersion: 2
-        x: 1505
+        x: 1476
         y: 379
-        width: 388
+        width: 440
         height: 485
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.49714205, y: 0.07639317}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
