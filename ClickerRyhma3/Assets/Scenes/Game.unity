@@ -158,8 +158,6 @@ MonoBehaviour:
   - {fileID: 1174428759471960891, guid: 0e532c5c96c6c394ea3558a3a81058fb, type: 3}
   - {fileID: 5730862992081380094, guid: 7568ce53b8873eb40be138cc712a8b22, type: 3}
   quad: {fileID: 1161062821}
-  spawnNumber: 123
-  spawnTimer: 5
 --- !u!4 &5041227
 Transform:
   m_ObjectHideFlags: 0
@@ -837,19 +835,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 110644969}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 110644971}
-        m_TargetAssemblyTypeName: CooldownScript, Assembly-CSharp
-        m_MethodName: Update
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &110644969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -902,6 +888,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imageCooldown: {fileID: 330515619}
   textCooldown: {fileID: 899913925}
+  abilityButton: {fileID: 110644968}
 --- !u!1 &127078186
 GameObject:
   m_ObjectHideFlags: 0
@@ -3862,7 +3849,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 968318224}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.39164385
+  m_Size: 0.39072633
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -5202,7 +5189,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -0.0010433197, y: 396.93494}
-  m_SizeDelta: {x: 580.58, y: 2027.02}
+  m_SizeDelta: {x: 580.58, y: 2031.78}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &910330569
 MonoBehaviour:
@@ -5874,7 +5861,7 @@ PrefabInstance:
     - target: {fileID: 2658152896806485573, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 870895380636349233, guid: 997afed7a9f616041be46e81be445643, type: 3}
+      objectReference: {fileID: 7168022511436453908, guid: 12019bcd63a15fe46832076cfc8a779f, type: 3}
     - target: {fileID: 6677417104601388376, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
       propertyPath: m_Name
       value: PirateOutfit
@@ -8014,7 +8001,7 @@ PrefabInstance:
     - target: {fileID: 2658152896806485573, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 1470035567367568537, guid: 997afed7a9f616041be46e81be445643, type: 3}
+      objectReference: {fileID: -4048271566757099604, guid: 12019bcd63a15fe46832076cfc8a779f, type: 3}
     - target: {fileID: 6677417104601388376, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
       propertyPath: m_Name
       value: PirateOutfit2
@@ -8942,7 +8929,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -33.049995}
+  m_AnchoredPosition: {x: 0, y: -33.05005}
   m_SizeDelta: {x: 0, y: -16.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1664783349
@@ -9227,7 +9214,7 @@ PrefabInstance:
     - target: {fileID: 2658152896806485573, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 8851229724765745151, guid: 997afed7a9f616041be46e81be445643, type: 3}
+      objectReference: {fileID: -6100467718859780474, guid: 12019bcd63a15fe46832076cfc8a779f, type: 3}
     - target: {fileID: 6677417104601388376, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
       propertyPath: m_Name
       value: PirateOutfit3
@@ -9857,7 +9844,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1864892375}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 9964271}
+        m_TargetAssemblyTypeName: OutfitChanger, Assembly-CSharp
+        m_MethodName: PirateOutfit2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1864892375 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7745042594335118612, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
