@@ -69,7 +69,7 @@ public class OutfitChanger : MonoBehaviour
 
     public void PirateOutfit2()
     {
-
+        torsoPart.sprite = torsoSprite[1];
     }
 
     public void PirateOutfit3()
