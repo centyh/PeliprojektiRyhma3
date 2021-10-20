@@ -64,10 +64,34 @@ public class Boosts : MonoBehaviour
                     Manager.manager.currentScore += amountCoins;
                     Destroy(hit.collider.gameObject);
                 }
+
+                if (hit.collider.CompareTag("RandomizedBoost"))
+                {
+                    RandomizedBoost();
+                    Destroy(hit.collider.gameObject);
+                }
             }
         }
     }
 
+    void RandomizedBoost()
+    {
+        float randValue;
+        randValue = Random.Range(1, 3);
+
+        if(randValue == 1)
+        {
+            Debug.Log("Random Value on 1");
+        }
+        if(randValue == 2)
+        {
+            Debug.Log("Random Value on 2");
+        }
+        if(randValue == 3)
+        {
+            Debug.Log("Random Value on 3");
+        }
+    }
 
 
     void DmgBoostActive()

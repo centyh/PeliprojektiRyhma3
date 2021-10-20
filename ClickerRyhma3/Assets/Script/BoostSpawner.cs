@@ -9,7 +9,7 @@ public class BoostSpawner : MonoBehaviour
     public List<GameObject> spawnPool;
     public GameObject quad;
 
-    float spawnTime = 70f;
+    float spawnTime = 60f;
     float curSpawnTime;
 
     private void Start()
@@ -29,7 +29,6 @@ public class BoostSpawner : MonoBehaviour
         GameObject toSpawn;
         MeshCollider c = quad.GetComponent<MeshCollider>();
 
-        //spawnTimer = Random.Range(0, 50000);
 
         float screenX, screenY;
         Vector2 pos;
