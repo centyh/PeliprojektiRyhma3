@@ -6,7 +6,12 @@ using UnityEngine.UI;
 
 public class OutfitChanger : MonoBehaviour
 {
-    //Hatut ostettu
+    //Shop price text
+    public Text shopText;
+    public Text shopText2;
+    public Text shopText3;
+
+    //Hats buyed
     bool hatIsBuy;
     bool hat2IsBuy;
     bool hat3IsBuy;
@@ -45,7 +50,7 @@ public class OutfitChanger : MonoBehaviour
 
     void Start()
     {
-        //pirateHat.interactable = false; // Kommentoitu pois
+        
     }
 
     public void PirateHat()
@@ -55,6 +60,7 @@ public class OutfitChanger : MonoBehaviour
             headPart.sprite = options[0];
             Manager.manager.currentScore -= pirateHatPrice;
             hatIsBuy = true;
+            shopText.text = null;
         }
         else if(hatIsBuy == true)
         {
@@ -69,7 +75,8 @@ public class OutfitChanger : MonoBehaviour
         {
             headPart.sprite = options[1];
             Manager.manager.currentScore -= pirateHat2Price;
-            hat2IsBuy = true;                      
+            hat2IsBuy = true;
+            shopText2.text = null;
         }
         else if (hat2IsBuy == true)
         {
@@ -85,6 +92,7 @@ public class OutfitChanger : MonoBehaviour
             headPart.sprite = options[2];
             Manager.manager.currentScore -= pirateHat3Price;
             hat3IsBuy = true;
+            shopText3.text = null;
         }
         else if (hat3IsBuy == true)
         {
