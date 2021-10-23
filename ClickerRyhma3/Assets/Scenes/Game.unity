@@ -202,6 +202,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 838457af7ff961340a473046c8c8e993, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shopText: {fileID: 644362155}
+  shopText2: {fileID: 335453387}
+  shopText3: {fileID: 946348870}
   pirateHat: {fileID: 761790176}
   pirateHat2: {fileID: 1866811076}
   pirateHat3: {fileID: 271458519}
@@ -2302,7 +2305,7 @@ GameObject:
   - component: {fileID: 335453388}
   - component: {fileID: 335453387}
   m_Layer: 5
-  m_Name: Text
+  m_Name: ShopText2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4201,7 +4204,7 @@ GameObject:
   - component: {fileID: 644362156}
   - component: {fileID: 644362155}
   m_Layer: 5
-  m_Name: Text
+  m_Name: ShopText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5762,7 +5765,7 @@ GameObject:
   - component: {fileID: 946348871}
   - component: {fileID: 946348870}
   m_Layer: 5
-  m_Name: Text
+  m_Name: ShopText3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
