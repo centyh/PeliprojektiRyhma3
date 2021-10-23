@@ -6,6 +6,11 @@ using UnityEngine.UI;
 
 public class OutfitChanger : MonoBehaviour
 {
+    //Check mark when buyed
+    public GameObject check;
+    public GameObject check2;
+    public GameObject check3;
+
     //Shop price text
     public Text shopText;
     public Text shopText2;
@@ -61,11 +66,12 @@ public class OutfitChanger : MonoBehaviour
             Manager.manager.currentScore -= pirateHatPrice;
             hatIsBuy = true;
             shopText.text = null;
+            check.SetActive(true);
         }
         else if(hatIsBuy == true)
         {
             pirateHat.interactable = true;
-            headPart.sprite = options[0];
+            headPart.sprite = options[0];            
         }        
     }
 
@@ -77,6 +83,7 @@ public class OutfitChanger : MonoBehaviour
             Manager.manager.currentScore -= pirateHat2Price;
             hat2IsBuy = true;
             shopText2.text = null;
+            check2.SetActive(true);
         }
         else if (hat2IsBuy == true)
         {
@@ -93,6 +100,7 @@ public class OutfitChanger : MonoBehaviour
             Manager.manager.currentScore -= pirateHat3Price;
             hat3IsBuy = true;
             shopText3.text = null;
+            check3.SetActive(true);
         }
         else if (hat3IsBuy == true)
         {
