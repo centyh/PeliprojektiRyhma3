@@ -10,26 +10,71 @@ public class OutfitChanger : MonoBehaviour
     public GameObject check;
     public GameObject check2;
     public GameObject check3;
+    public GameObject check4;
+    public GameObject check5;
+    public GameObject check6;
+    public GameObject check7;
+    public GameObject check8;
+    public GameObject check9;
+    public GameObject check10;
+    public GameObject check11;
+    public GameObject check12;
 
     //Shop price text
     public Text shopText;
     public Text shopText2;
     public Text shopText3;
+    public Text shopText4;
+    public Text shopText5;
+    public Text shopText6;
+    public Text shopText7;
+    public Text shopText8;
+    public Text shopText9;
+    public Text shopText10;
+    public Text shopText11;
+    public Text shopText12;
 
     //Hats buyed
     bool hatIsBuy;
     bool hat2IsBuy;
     bool hat3IsBuy;
+    bool hat4IsBuy;
+    bool hat5IsBuy;
+    bool hat6IsBuy;
+    bool hat7IsBuy;
+    bool hat8IsBuy;
+    bool hat9IsBuy;
+    bool hat10IsBuy;
+    bool hat11IsBuy;
+    bool hat12IsBuy;
 
     //Buttons
     public Button pirateHat;
     public Button pirateHat2;
     public Button pirateHat3;
+    public Button pirateHat4;
+    public Button pirateHat5;
+    public Button pirateHat6;
+    public Button pirateHat7;
+    public Button pirateHat8;
+    public Button pirateHat9;
+    public Button pirateHat10;
+    public Button pirateHat11;
+    public Button pirateHat12;
 
     //Prices
     public int pirateHatPrice;
     public int pirateHat2Price;
     public int pirateHat3Price;
+    public int pirateHat4Price;
+    public int pirateHat5Price;
+    public int pirateHat6Price;
+    public int pirateHat7Price;
+    public int pirateHat8Price;
+    public int pirateHat9Price;
+    public int pirateHat10Price;
+    public int pirateHat11Price;
+    public int pirateHat12Price;
 
     
 
@@ -87,7 +132,7 @@ public class OutfitChanger : MonoBehaviour
         }
         else if (hat2IsBuy == true)
         {
-            pirateHat.interactable = true;
+            pirateHat2.interactable = true;
             headPart.sprite = options[1];
         }
     }
@@ -104,8 +149,161 @@ public class OutfitChanger : MonoBehaviour
         }
         else if (hat3IsBuy == true)
         {
-            pirateHat.interactable = true;
+            pirateHat3.interactable = true;
             headPart.sprite = options[2];
+        }
+    }
+
+    public void PirateHat4()
+    {
+        if (Manager.manager.currentScore >= pirateHat4Price && !hat4IsBuy)
+        {
+            headPart.sprite = options[3];
+            Manager.manager.currentScore -= pirateHat4Price;
+            hat4IsBuy = true;
+            shopText4.text = null;
+            check4.SetActive(true);
+        }
+        else if (hat4IsBuy == true)
+        {
+            pirateHat4.interactable = true;
+            headPart.sprite = options[3];
+        }
+    }
+
+    public void PirateHat5()
+    {
+        if (Manager.manager.currentScore >= pirateHat5Price && !hat5IsBuy)
+        {
+            headPart.sprite = options[4];
+            Manager.manager.currentScore -= pirateHat5Price;
+            hat5IsBuy = true;
+            shopText5.text = null;
+            check5.SetActive(true);
+        }
+        else if (hat5IsBuy == true)
+        {
+            pirateHat5.interactable = true;
+            headPart.sprite = options[4];
+        }
+    }
+
+    public void PirateHat6()
+    {
+        if (Manager.manager.currentScore >= pirateHat6Price && !hat6IsBuy)
+        {
+            headPart.sprite = options[5];
+            Manager.manager.currentScore -= pirateHat6Price;
+            hat6IsBuy = true;
+            shopText6.text = null;
+            check6.SetActive(true);
+        }
+        else if (hat6IsBuy == true)
+        {
+            pirateHat6.interactable = true;
+            headPart.sprite = options[5];
+        }
+    }
+
+    public void PirateHat7()
+    {
+        if (Manager.manager.currentScore >= pirateHat7Price && !hat7IsBuy)
+        {
+            headPart.sprite = options[6];
+            Manager.manager.currentScore -= pirateHat7Price;
+            hat7IsBuy = true;
+            shopText7.text = null;
+            check7.SetActive(true);
+        }
+        else if (hat7IsBuy == true)
+        {
+            pirateHat7.interactable = true;
+            headPart.sprite = options[6];
+        }
+    }
+
+    public void PirateHat8()
+    {
+        if (Manager.manager.currentScore >= pirateHat8Price && !hat8IsBuy)
+        {
+            headPart.sprite = options[7];
+            Manager.manager.currentScore -= pirateHat8Price;
+            hat8IsBuy = true;
+            shopText8.text = null;
+            check8.SetActive(true);
+        }
+        else if (hat8IsBuy == true)
+        {
+            pirateHat8.interactable = true;
+            headPart.sprite = options[7];
+        }
+    }
+
+    public void PirateHat9()
+    {
+        if (Manager.manager.currentScore >= pirateHat9Price && !hat9IsBuy)
+        {
+            headPart.sprite = options[8];
+            Manager.manager.currentScore -= pirateHat9Price;
+            hat9IsBuy = true;
+            shopText9.text = null;
+            check9.SetActive(true);
+        }
+        else if (hat9IsBuy == true)
+        {
+            pirateHat9.interactable = true;
+            headPart.sprite = options[8];
+        }
+    }
+
+    public void PirateHat10()
+    {
+        if (Manager.manager.currentScore >= pirateHat10Price && !hat10IsBuy)
+        {
+            headPart.sprite = options[9];
+            Manager.manager.currentScore -= pirateHat10Price;
+            hat10IsBuy = true;
+            shopText10.text = null;
+            check10.SetActive(true);
+        }
+        else if (hat10IsBuy == true)
+        {
+            pirateHat10.interactable = true;
+            headPart.sprite = options[9];
+        }
+    }
+
+    public void PirateHat11()
+    {
+        if (Manager.manager.currentScore >= pirateHat11Price && !hat11IsBuy)
+        {
+            headPart.sprite = options[10];
+            Manager.manager.currentScore -= pirateHat11Price;
+            hat11IsBuy = true;
+            shopText11.text = null;
+            check11.SetActive(true);
+        }
+        else if (hat11IsBuy == true)
+        {
+            pirateHat11.interactable = true;
+            headPart.sprite = options[10];
+        }
+    }
+
+    public void PirateHat12()
+    {
+        if (Manager.manager.currentScore >= pirateHat12Price && !hat12IsBuy)
+        {
+            headPart.sprite = options[11];
+            Manager.manager.currentScore -= pirateHat12Price;
+            hat12IsBuy = true;
+            shopText12.text = null;
+            check12.SetActive(true);
+        }
+        else if (hat12IsBuy == true)
+        {
+            pirateHat12.interactable = true;
+            headPart.sprite = options[11];
         }
     }
 
