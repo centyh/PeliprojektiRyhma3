@@ -46,6 +46,7 @@ public class Manager : MonoBehaviour
 
     public Text clickCastleCost;
     public int clickCastlePrice;
+    public GameObject abilityButton2;
 
     public Text clickFarmCost;
     public int clickFarmPrice;
@@ -272,6 +273,7 @@ public class Manager : MonoBehaviour
             x += 15;
             currentScore -= clickCastlePrice;
             clickCastlePrice += 10000;
+            abilityButton2.SetActive(true);
         }
     }
 

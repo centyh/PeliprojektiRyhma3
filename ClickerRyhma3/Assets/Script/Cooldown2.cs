@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CooldownScript : MonoBehaviour
+public class Cooldown2 : MonoBehaviour
 {
     [SerializeField] private Image imageCooldown;
 
@@ -13,7 +13,7 @@ public class CooldownScript : MonoBehaviour
 
     private bool isCooldown = false;
 
-    private float cooldownTime = 30f;
+    private float cooldownTime = 45f;
     private float cooldownTimer = 0f;
 
 
@@ -36,7 +36,7 @@ public class CooldownScript : MonoBehaviour
     public void Testi()
     {
         StartCoroutine(Ability());
-        Debug.Log("Auto Click Ability");
+        Debug.Log("Auto Click Ability Kaksi");
         abilityButton.enabled = false;
         UseAbility();
     }
@@ -45,7 +45,7 @@ public class CooldownScript : MonoBehaviour
     {
         cooldownTimer -= Time.deltaTime;
 
-        if(cooldownTimer < 0f)
+        if (cooldownTimer < 0f)
         {
             abilityButton.enabled = true;
             isCooldown = false;
@@ -64,7 +64,7 @@ public class CooldownScript : MonoBehaviour
     {
         if (isCooldown)
         {
-            
+
         }
         else
         {
@@ -77,12 +77,12 @@ public class CooldownScript : MonoBehaviour
 
     IEnumerator Ability()
     {
-        Manager.manager.x += 15;
-        Manager.manager.autoClickStat += 15;
+        Manager.manager.hitPower += 50;
+        Manager.manager.clickDmgStat += 50;
 
         yield return new WaitForSeconds(5f);
 
-        Manager.manager.x -= 15;
-        Manager.manager.autoClickStat -= 15;
+        Manager.manager.hitPower -= 50;
+        Manager.manager.clickDmgStat -= 50;
     }
 }
