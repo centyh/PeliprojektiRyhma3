@@ -27,14 +27,17 @@ public class CooldownScript : MonoBehaviour
 
     public void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            UseAbility();
-        }
         if (isCooldown)
         {
             ApplyCooldown();
         }
+    }
+
+    public void Testi()
+    {
+            UseAbility();
+        
+        //ApplyCooldown();
 
     }
 
