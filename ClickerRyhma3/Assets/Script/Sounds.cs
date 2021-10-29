@@ -26,6 +26,11 @@ public class Sounds : MonoBehaviour
         musicVolume = volume;
     }
 
+    public void UpdateSFXVolume(float sfxVolume)
+    {
+
+    }
+
     public void PaperSound()
     {
         audioSource.PlayOneShot(paperSound);
