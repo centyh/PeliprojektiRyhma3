@@ -20,16 +20,27 @@ public class OutfitChanger : MonoBehaviour
     public GameObject check11;
     public GameObject check12;
 
-
     //public GameObject check13;
     //public GameObject check14;
     //public GameObject check15;
     //public GameObject check16;
     //public GameObject check17; 
 
+    
+    //Check mark for outfits when buyed
+
     public GameObject check18;
     public GameObject check19;
     public GameObject check20;
+    public GameObject check21;
+    public GameObject check22;
+    public GameObject check23;
+    public GameObject check24;
+    public GameObject check25;
+    public GameObject check26;
+    public GameObject check27;
+    public GameObject check28;
+    public GameObject check29;
 
     //Hats price text
     public Text shopText;
@@ -51,9 +62,21 @@ public class OutfitChanger : MonoBehaviour
     //public Text shopText16;
     //public Text shopText17;
 
+    
+    //Outfit price text
+
     public Text shopText18;
     public Text shopText19;
     public Text shopText20;
+    public Text shopText21;
+    public Text shopText22;
+    public Text shopText23;
+    public Text shopText24;
+    public Text shopText25;
+    public Text shopText26;
+    public Text shopText27;
+    public Text shopText28;
+    public Text shopText29;
 
     //Hats buyed
     bool hatIsBuy;
@@ -75,9 +98,21 @@ public class OutfitChanger : MonoBehaviour
     //bool hat16IsBuy;
     //bool hat17IsBuy;
 
+    
+    //Outfit buyed
+
     bool outfit18IsBuy;
     bool outfit19IsBuy;
     bool outfit20IsBuy;
+    bool outfit21IsBuy;
+    bool outfit22IsBuy;
+    bool outfit23IsBuy;
+    bool outfit24IsBuy;
+    bool outfit25IsBuy;
+    bool outfit26IsBuy;
+    bool outfit27IsBuy;
+    bool outfit28IsBuy;
+    bool outfit29IsBuy;
 
     //Hat Buttons
     public Button pirateHat;
@@ -99,9 +134,21 @@ public class OutfitChanger : MonoBehaviour
     //public Button pirateHat16;
     //public Button pirateHat17;
 
+    
+    //Outfit Buttons
+
     public Button pirateOutfit18;
     public Button pirateOutfit19;
     public Button pirateOutfit20;
+    public Button pirateOutfit21;
+    public Button pirateOutfit22;
+    public Button pirateOutfit23;
+    public Button pirateOutfit24;
+    public Button pirateOutfit25;
+    public Button pirateOutfit26;
+    public Button pirateOutfit27;
+    public Button pirateOutfit28;
+    public Button pirateOutfit29;
 
     //Hat Prices
     public int pirateHatPrice;
@@ -123,9 +170,21 @@ public class OutfitChanger : MonoBehaviour
     //public int pirateHat16Price;
     //public int pirateHat17Price;
 
+    
+    //Outfit Prices
+
     public int pirateOutfit18Price;
     public int pirateOutfit19Price;
     public int pirateOutfit20Price;
+    public int pirateOutfit21Price;
+    public int pirateOutfit22Price;
+    public int pirateOutfit23Price;
+    public int pirateOutfit24Price;
+    public int pirateOutfit25Price;
+    public int pirateOutfit26Price;
+    public int pirateOutfit27Price;
+    public int pirateOutfit28Price;
+    public int pirateOutfit29Price;
 
 
     [Header("Head")]
@@ -404,6 +463,159 @@ public class OutfitChanger : MonoBehaviour
         {
             pirateOutfit20.interactable = true;
             torsoPart.sprite = torsoSprite[2];
+        }
+    }
+
+    public void PirateOutfit4()
+    {
+        if (Manager.manager.currentScore >= pirateOutfit21Price && !outfit21IsBuy)
+        {
+            torsoPart.sprite = torsoSprite[3];
+            Manager.manager.currentScore -= pirateOutfit21Price;
+            outfit21IsBuy = true;
+            shopText21.text = null;
+            check21.SetActive(true);
+        }
+        else if (outfit21IsBuy == true)
+        {
+            pirateOutfit21.interactable = true;
+            torsoPart.sprite = torsoSprite[3];
+        }
+    }
+
+    public void PirateOutfit5()
+    {
+        if (Manager.manager.currentScore >= pirateOutfit22Price && !outfit22IsBuy)
+        {
+            torsoPart.sprite = torsoSprite[4];
+            Manager.manager.currentScore -= pirateOutfit22Price;
+            outfit22IsBuy = true;
+            shopText22.text = null;
+            check22.SetActive(true);
+        }
+        else if (outfit22IsBuy == true)
+        {
+            pirateOutfit22.interactable = true;
+            torsoPart.sprite = torsoSprite[4];
+        }
+    }
+
+    public void PirateOutfit6()
+    {
+        if (Manager.manager.currentScore >= pirateOutfit23Price && !outfit23IsBuy)
+        {
+            torsoPart.sprite = torsoSprite[5];
+            Manager.manager.currentScore -= pirateOutfit23Price;
+            outfit23IsBuy = true;
+            shopText23.text = null;
+            check23.SetActive(true);
+        }
+        else if (outfit23IsBuy == true)
+        {
+            pirateOutfit23.interactable = true;
+            torsoPart.sprite = torsoSprite[5];
+        }
+    }
+
+    public void PirateOutfit7()
+    {
+        if (Manager.manager.currentScore >= pirateOutfit24Price && !outfit24IsBuy)
+        {
+            torsoPart.sprite = torsoSprite[6];
+            Manager.manager.currentScore -= pirateOutfit24Price;
+            outfit24IsBuy = true;
+            shopText24.text = null;
+            check24.SetActive(true);
+        }
+        else if (outfit24IsBuy == true)
+        {
+            pirateOutfit24.interactable = true;
+            torsoPart.sprite = torsoSprite[6];
+        }
+    }
+
+    public void PirateOutfit8()
+    {
+        if (Manager.manager.currentScore >= pirateOutfit25Price && !outfit25IsBuy)
+        {
+            torsoPart.sprite = torsoSprite[7];
+            Manager.manager.currentScore -= pirateOutfit25Price;
+            outfit25IsBuy = true;
+            shopText25.text = null;
+            check25.SetActive(true);
+        }
+        else if (outfit25IsBuy == true)
+        {
+            pirateOutfit25.interactable = true;
+            torsoPart.sprite = torsoSprite[7];
+        }
+    }
+
+    public void PirateOutfit9()
+    {
+        if (Manager.manager.currentScore >= pirateOutfit26Price && !outfit26IsBuy)
+        {
+            torsoPart.sprite = torsoSprite[8];
+            Manager.manager.currentScore -= pirateOutfit26Price;
+            outfit26IsBuy = true;
+            shopText26.text = null;
+            check26.SetActive(true);
+        }
+        else if (outfit26IsBuy == true)
+        {
+            pirateOutfit26.interactable = true;
+            torsoPart.sprite = torsoSprite[8];
+        }
+    }
+
+    public void PirateOutfit10()
+    {
+        if (Manager.manager.currentScore >= pirateOutfit27Price && !outfit27IsBuy)
+        {
+            torsoPart.sprite = torsoSprite[9];
+            Manager.manager.currentScore -= pirateOutfit27Price;
+            outfit27IsBuy = true;
+            shopText27.text = null;
+            check27.SetActive(true);
+        }
+        else if (outfit27IsBuy == true)
+        {
+            pirateOutfit27.interactable = true;
+            torsoPart.sprite = torsoSprite[9];
+        }
+    }
+
+    public void PirateOutfit11()
+    {
+        if (Manager.manager.currentScore >= pirateOutfit28Price && !outfit28IsBuy)
+        {
+            torsoPart.sprite = torsoSprite[10];
+            Manager.manager.currentScore -= pirateOutfit28Price;
+            outfit28IsBuy = true;
+            shopText28.text = null;
+            check28.SetActive(true);
+        }
+        else if (outfit28IsBuy == true)
+        {
+            pirateOutfit28.interactable = true;
+            torsoPart.sprite = torsoSprite[10];
+        }
+    }
+    
+    public void PirateOutfit12()
+    {
+        if (Manager.manager.currentScore >= pirateOutfit29Price && !outfit29IsBuy)
+        {
+            torsoPart.sprite = torsoSprite[11];
+            Manager.manager.currentScore -= pirateOutfit29Price;
+            outfit29IsBuy = true;
+            shopText29.text = null;
+            check29.SetActive(true);
+        }
+        else if (outfit29IsBuy == true)
+        {
+            pirateOutfit29.interactable = true;
+            torsoPart.sprite = torsoSprite[11];
         }
     }
 
