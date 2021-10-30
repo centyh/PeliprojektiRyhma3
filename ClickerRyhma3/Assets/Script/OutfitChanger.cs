@@ -42,6 +42,11 @@ public class OutfitChanger : MonoBehaviour
     public GameObject check28;
     public GameObject check29;
 
+
+    //Check mark for pets when buyed
+
+    public GameObject check30;
+
     //Hats price text
     public Text shopText;
     public Text shopText2;
@@ -77,6 +82,11 @@ public class OutfitChanger : MonoBehaviour
     public Text shopText27;
     public Text shopText28;
     public Text shopText29;
+
+
+    //Pets price text
+
+    public Text shopText30;
 
     //Hats buyed
     bool hatIsBuy;
@@ -114,6 +124,11 @@ public class OutfitChanger : MonoBehaviour
     bool outfit28IsBuy;
     bool outfit29IsBuy;
 
+
+    //Pets buyed
+
+    bool pet30IsBuy;
+
     //Hat Buttons
     public Button pirateHat;
     public Button pirateHat2;
@@ -149,6 +164,11 @@ public class OutfitChanger : MonoBehaviour
     public Button pirateOutfit27;
     public Button pirateOutfit28;
     public Button pirateOutfit29;
+
+
+    //Pets Buttons
+
+    public Button pet30;
 
     //Hat Prices
     public int pirateHatPrice;
@@ -187,6 +207,11 @@ public class OutfitChanger : MonoBehaviour
     public int pirateOutfit29Price;
 
 
+    //Pet Prices
+
+    public int pet30Price;
+
+
     [Header("Head")]
     public SpriteRenderer headPart;
     public List<Sprite> options = new List<Sprite>();
@@ -204,6 +229,10 @@ public class OutfitChanger : MonoBehaviour
     public SpriteRenderer leftLegPart;
     public SpriteRenderer rightLegPart; 
     public List<Sprite> legsSprite = new List<Sprite>();
+
+    [Header("Pets")]
+    public SpriteRenderer petPart;
+    public List<Sprite> petSprite = new List<Sprite>();
 
 
     void Start()
@@ -617,6 +646,23 @@ public class OutfitChanger : MonoBehaviour
             pirateOutfit29.interactable = true;
             torsoPart.sprite = torsoSprite[11];
         }
+    }
+
+    public void Pet30()
+    {
+        if (Manager.manager.currentScore >= pet30Price && !pet30IsBuy)
+        {
+            petPart.sprite = petSprite[0];
+            Manager.manager.currentScore -= pet30Price;
+            pet30IsBuy = true;
+            shopText30.text = null;
+            check30.SetActive(true);
+        }
+        else if (pet30IsBuy == true)
+        {
+            pet30.interactable = true;
+            petPart.sprite = petSprite[0];
+        }        
     }
 
     void Interactables()
