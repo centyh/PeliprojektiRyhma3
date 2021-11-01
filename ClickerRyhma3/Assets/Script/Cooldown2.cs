@@ -20,6 +20,8 @@ public class Cooldown2 : MonoBehaviour
 
     private void Start()
     {
+
+
         textCooldown.gameObject.SetActive(false);
         imageCooldown.fillAmount = 0f;
     }

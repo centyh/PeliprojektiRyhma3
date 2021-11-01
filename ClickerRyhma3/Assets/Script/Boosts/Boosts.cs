@@ -7,8 +7,15 @@ using UnityEngine.UI;
 public class Boosts : MonoBehaviour
 {
     public GameObject clickDmgText;
+    public GameObject coinText;
+    public GameObject coinsLost;
+    public GameObject luckyHitText;
+
+    public Text coinsText;
+    public Text coinsLostText;
 
     public float amountCoins;
+    public float amountCoins2;
 
     public float currentDmg;
     public float currentDmgStat;
@@ -34,6 +41,10 @@ public class Boosts : MonoBehaviour
         }
         dmgBoostTimer -= Time.deltaTime;
         BoostButton();
+
+
+        coinsText.text = "YOU GOT " + amountCoins + " COINS!";
+        coinsLostText.text = "YOU LOST " + amountCoins2 + " COINS!";
     }
 
     public void BoostButton()
@@ -63,12 +74,14 @@ public class Boosts : MonoBehaviour
                     Debug.Log("Klikattiin coin boostia");
                     Manager.manager.currentScore += amountCoins;
                     Destroy(hit.collider.gameObject);
+                    StartCoroutine(Wait());
                 }
 
                 if (hit.collider.CompareTag("RandomizedBoost"))
                 {
                     RandomizedBoost();
                     Destroy(hit.collider.gameObject);
+                    
                 }
             }
         }
@@ -76,20 +89,27 @@ public class Boosts : MonoBehaviour
 
     void RandomizedBoost()
     {
+        amountCoins2 = Random.Range(100, 1000);
+
         float randValue;
         randValue = Random.Range(1, 3);
 
         if(randValue == 1)
         {
-            Debug.Log("Random Value on 1");
+            Manager.manager.currentScore -= amountCoins;
+            Debug.Log("You lost: " + amountCoins);
+            StartCoroutine(Wait3());
         }
         if(randValue == 2)
         {
-            Debug.Log("Random Value on 2");
+            StartCoroutine(BoostTime());
+            Debug.Log("Lucky Hit Increased");
+            StartCoroutine(Wait2());
         }
         if(randValue == 3)
         {
-            Debug.Log("Random Value on 3");
+            StartCoroutine(BoostTime2());
+            Debug.Log("Auto Click started");
         }
     }
 
@@ -107,5 +127,48 @@ public class Boosts : MonoBehaviour
         addedBoostAmount = 0;
         Manager.manager.clickDmgStat -= 50;
         clickDmgText.SetActive(false);
+    }
+
+    IEnumerator Wait()
+    {
+        coinText.SetActive(true);
+        yield return new WaitForSeconds(5);
+        coinText.SetActive(false);
+    }
+
+    IEnumerator Wait2()
+    {
+        luckyHitText.SetActive(true);
+        yield return new WaitForSeconds(5);
+        luckyHitText.SetActive(false);
+    }
+
+    IEnumerator Wait3()
+    {
+        coinsLost.SetActive(true);
+        yield return new WaitForSeconds(5);
+        coinsLost.SetActive(false);
+    }
+
+    IEnumerator BoostTime()
+    {
+        Manager.manager.target += .10f;
+        Manager.manager.luckyHitStat += 10;
+
+        yield return new WaitForSeconds(5);
+
+        Manager.manager.target -= .10f;
+        Manager.manager.luckyHitStat -= 10;
+    }
+
+    IEnumerator BoostTime2()
+    {
+        Manager.manager.x += 35;
+        Manager.manager.autoClickStat += 35;
+
+        yield return new WaitForSeconds(5);
+
+        Manager.manager.x -= 35;
+        Manager.manager.autoClickStat -= 35;
     }
 }

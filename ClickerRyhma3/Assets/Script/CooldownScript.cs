@@ -11,6 +11,8 @@ public class CooldownScript : MonoBehaviour
 
     [SerializeField] private Button abilityButton;
 
+    [SerializeField] private Animator backgroundAnim;
+
     private bool isCooldown = false;
 
     private float cooldownTime = 30f;
@@ -20,6 +22,8 @@ public class CooldownScript : MonoBehaviour
 
     private void Start()
     {
+        backgroundAnim = GetComponent<Animator>();
+
         textCooldown.gameObject.SetActive(false);
         imageCooldown.fillAmount = 0f;
     }
@@ -35,6 +39,7 @@ public class CooldownScript : MonoBehaviour
 
     public void Testi()
     {
+        backgroundAnim.SetTrigger("Click");
         StartCoroutine(Ability());
         Debug.Log("Auto Click Ability");
         abilityButton.enabled = false;

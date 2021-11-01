@@ -9,7 +9,7 @@ public class BoostSpawner : MonoBehaviour
     public List<GameObject> spawnPool;
     public GameObject quad;
 
-    float spawnTime = 60f;
+    float spawnTime = 5f;
     float curSpawnTime;
 
     private void Start()

@@ -7,8 +7,11 @@ public class Sounds : MonoBehaviour
 
     private float musicVolume = 1f;
 
+    private float soundsVolume = 1f;
+
     public AudioSource audioSource;
-    public AudioClip paperSound;
+    public AudioSource paperSound;
+    public AudioSource coinSound;
 
 
     private void Start()
@@ -19,6 +22,8 @@ public class Sounds : MonoBehaviour
     private void Update()
     {
         audioSource.volume = musicVolume;
+        coinSound.volume = soundsVolume;
+        paperSound.volume = soundsVolume;
     }
 
     public void UpdateVolume(float volume)
@@ -28,12 +33,13 @@ public class Sounds : MonoBehaviour
 
     public void UpdateSFXVolume(float sfxVolume)
     {
+        soundsVolume = sfxVolume;
 
     }
 
     public void PaperSound()
     {
-        audioSource.PlayOneShot(paperSound);
+
     }
 
 }
