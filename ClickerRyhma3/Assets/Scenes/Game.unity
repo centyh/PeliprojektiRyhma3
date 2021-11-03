@@ -496,18 +496,18 @@ MonoBehaviour:
   pet33Price: 50
   headPart: {fileID: 1676022817}
   options:
-  - {fileID: 4077040196074807666, guid: 9518515db30f6fa43bdb6f275769b1ca, type: 3}
-  - {fileID: -1804419044348362892, guid: 9518515db30f6fa43bdb6f275769b1ca, type: 3}
-  - {fileID: -788113015786167349, guid: 9518515db30f6fa43bdb6f275769b1ca, type: 3}
-  - {fileID: -995463626379218276, guid: 99178333cd601104980338b06c8ee1c9, type: 3}
-  - {fileID: 3129112386907117787, guid: 99178333cd601104980338b06c8ee1c9, type: 3}
-  - {fileID: 7110476168792871997, guid: 99178333cd601104980338b06c8ee1c9, type: 3}
-  - {fileID: 4499138446227518926, guid: d78f35086e3538946928a1228db28211, type: 3}
-  - {fileID: 1532055910831363560, guid: d78f35086e3538946928a1228db28211, type: 3}
-  - {fileID: -1414836485757155259, guid: d78f35086e3538946928a1228db28211, type: 3}
-  - {fileID: -3765853609796605623, guid: fceefdfd0fa34564e910335139f55d02, type: 3}
-  - {fileID: 5577728086459902052, guid: fceefdfd0fa34564e910335139f55d02, type: 3}
-  - {fileID: 8360758243376094028, guid: fceefdfd0fa34564e910335139f55d02, type: 3}
+  - {fileID: -8805176296304449708, guid: 9c9d3ab30018eea4ebbb92babb5c40f9, type: 3}
+  - {fileID: 6568382358185744816, guid: 4e945e350efe0ed4ea9147e3c914df46, type: 3}
+  - {fileID: 3221983372517202416, guid: bf6b7e861871d0344995a2db0a3ee1c1, type: 3}
+  - {fileID: -3880725052371438126, guid: c0117b83dd4e05848b7a2030dc551aa8, type: 3}
+  - {fileID: 1278166429120856807, guid: cc49ff8ce4af71d478ab744320266b3d, type: 3}
+  - {fileID: -2399881100816969927, guid: ffcbf66f1ee962d48ab3a61b6c3dafed, type: 3}
+  - {fileID: 7273252179878583544, guid: d16ba2d5528847e4a8f76ed60cfab582, type: 3}
+  - {fileID: -1398398290743378154, guid: e0c869a76fcefd8448a53e73c077af38, type: 3}
+  - {fileID: 4497955849667438853, guid: 76cc916c8937d504d9c11459732e10be, type: 3}
+  - {fileID: 2739211182190280731, guid: 406e98d242b3eb5418b4eba6b27eba44, type: 3}
+  - {fileID: -1299681536610088048, guid: 28219d578cec80c46a422ab385e740eb, type: 3}
+  - {fileID: -6200707759878186598, guid: 0b5c64a90d003b34b81414a4e3b9c00e, type: 3}
   torsoPart: {fileID: 1531442459}
   torsoSprite:
   - {fileID: -6868534242084500061, guid: e085c00bc21b7994389af9fff3e3406a, type: 3}
@@ -1647,12 +1647,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1539835075013399965, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 130
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539835075013399965, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 2658152896806485573, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -3765853609796605623, guid: fceefdfd0fa34564e910335139f55d02, type: 3}
+      objectReference: {fileID: 2739211182190280731, guid: 406e98d242b3eb5418b4eba6b27eba44, type: 3}
     - target: {fileID: 6677417104601388376, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
       propertyPath: m_Name
       value: PirateHat10
@@ -2920,7 +2924,7 @@ PrefabInstance:
     - target: {fileID: 2658152896806485573, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 1532055910831363560, guid: d78f35086e3538946928a1228db28211, type: 3}
+      objectReference: {fileID: -1398398290743378154, guid: e0c869a76fcefd8448a53e73c077af38, type: 3}
     - target: {fileID: 6677417104601388376, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
       propertyPath: m_Name
       value: PirateHat8
@@ -5468,7 +5472,7 @@ PrefabInstance:
     - target: {fileID: 2658152896806485573, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -995463626379218276, guid: 99178333cd601104980338b06c8ee1c9, type: 3}
+      objectReference: {fileID: -3880725052371438126, guid: c0117b83dd4e05848b7a2030dc551aa8, type: 3}
     - target: {fileID: 6677417104601388376, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
       propertyPath: m_Name
       value: PirateHat4
@@ -7283,7 +7287,7 @@ PrefabInstance:
     - target: {fileID: 2658152896806485573, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 3129112386907117787, guid: 99178333cd601104980338b06c8ee1c9, type: 3}
+      objectReference: {fileID: 1278166429120856807, guid: cc49ff8ce4af71d478ab744320266b3d, type: 3}
     - target: {fileID: 6677417104601388376, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
       propertyPath: m_Name
       value: PirateHat5
@@ -8311,7 +8315,7 @@ PrefabInstance:
     - target: {fileID: 2658152896806485573, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 7110476168792871997, guid: 99178333cd601104980338b06c8ee1c9, type: 3}
+      objectReference: {fileID: -2399881100816969927, guid: ffcbf66f1ee962d48ab3a61b6c3dafed, type: 3}
     - target: {fileID: 6677417104601388376, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
       propertyPath: m_Name
       value: PirateHat6
@@ -8666,7 +8670,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1539835075013399965, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 110
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 1539835075013399965, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
       propertyPath: m_SizeDelta.y
@@ -8675,7 +8679,7 @@ PrefabInstance:
     - target: {fileID: 2658152896806485573, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -788113015786167349, guid: 9518515db30f6fa43bdb6f275769b1ca, type: 3}
+      objectReference: {fileID: 3221983372517202416, guid: bf6b7e861871d0344995a2db0a3ee1c1, type: 3}
     - target: {fileID: 6677417104601388376, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
       propertyPath: m_Name
       value: PirateHat3
@@ -11784,10 +11788,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1996921392}
     m_Modifications:
+    - target: {fileID: 1539835075013399965, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539835075013399965, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 2658152896806485573, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 4499138446227518926, guid: d78f35086e3538946928a1228db28211, type: 3}
+      objectReference: {fileID: 7273252179878583544, guid: d16ba2d5528847e4a8f76ed60cfab582, type: 3}
     - target: {fileID: 6677417104601388376, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
       propertyPath: m_Name
       value: PirateHat7
@@ -12931,7 +12943,7 @@ PrefabInstance:
     - target: {fileID: 2658152896806485573, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 8360758243376094028, guid: fceefdfd0fa34564e910335139f55d02, type: 3}
+      objectReference: {fileID: -6200707759878186598, guid: 0b5c64a90d003b34b81414a4e3b9c00e, type: 3}
     - target: {fileID: 6677417104601388376, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
       propertyPath: m_Name
       value: PirateHat12
@@ -14734,10 +14746,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1996921392}
     m_Modifications:
+    - target: {fileID: 1539835075013399965, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539835075013399965, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 90
+      objectReference: {fileID: 0}
     - target: {fileID: 2658152896806485573, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -1414836485757155259, guid: d78f35086e3538946928a1228db28211, type: 3}
+      objectReference: {fileID: 4497955849667438853, guid: 76cc916c8937d504d9c11459732e10be, type: 3}
     - target: {fileID: 6677417104601388376, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
       propertyPath: m_Name
       value: PirateHat9
@@ -16712,7 +16732,7 @@ PrefabInstance:
     - target: {fileID: 2658152896806485573, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 5577728086459902052, guid: fceefdfd0fa34564e910335139f55d02, type: 3}
+      objectReference: {fileID: -1299681536610088048, guid: 28219d578cec80c46a422ab385e740eb, type: 3}
     - target: {fileID: 6677417104601388376, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
       propertyPath: m_Name
       value: PirateHat11
@@ -18319,7 +18339,7 @@ PrefabInstance:
     - target: {fileID: 2658152896806485573, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -1804419044348362892, guid: 9518515db30f6fa43bdb6f275769b1ca, type: 3}
+      objectReference: {fileID: 6568382358185744816, guid: 4e945e350efe0ed4ea9147e3c914df46, type: 3}
     - target: {fileID: 6677417104601388376, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
       propertyPath: m_Name
       value: PirateHat2
@@ -22074,7 +22094,7 @@ PrefabInstance:
     - target: {fileID: 2658152896806485573, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 4077040196074807666, guid: 9518515db30f6fa43bdb6f275769b1ca, type: 3}
+      objectReference: {fileID: -8805176296304449708, guid: 9c9d3ab30018eea4ebbb92babb5c40f9, type: 3}
     - target: {fileID: 6677417104601388376, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
       propertyPath: m_Name
       value: PirateHat
