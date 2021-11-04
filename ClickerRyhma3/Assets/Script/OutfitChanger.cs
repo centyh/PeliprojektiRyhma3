@@ -275,11 +275,13 @@ public class OutfitChanger : MonoBehaviour
         
     }
 
+
+
     public void PirateHat()
     {
         if(Manager.manager.currentScore >= pirateHatPrice && !hatIsBuy)
         {
-            headPart.sprite = options[0];
+            headPart.sprite = options[0];            
             Manager.manager.currentScore -= pirateHatPrice;
             hatIsBuy = true;
             shopText.text = null;
@@ -569,6 +571,8 @@ public class OutfitChanger : MonoBehaviour
         if (Manager.manager.currentScore >= pirateOutfit18Price && !outfit18IsBuy)
         {
             torsoPart.sprite = torsoSprite[0];
+            leftArmPart.sprite = armSprite[0];
+            rightArmPart.sprite = armSprite[1];
             Manager.manager.currentScore -= pirateOutfit18Price;
             outfit18IsBuy = true;
             shopText18.text = null;
@@ -578,6 +582,8 @@ public class OutfitChanger : MonoBehaviour
         {
             pirateOutfit18.interactable = true;
             torsoPart.sprite = torsoSprite[0];
+            leftArmPart.sprite = armSprite[0];
+            rightArmPart.sprite = armSprite[1];
         }        
     }
 
@@ -586,6 +592,8 @@ public class OutfitChanger : MonoBehaviour
         if (Manager.manager.currentScore >= pirateOutfit19Price && !outfit19IsBuy)
         {
             torsoPart.sprite = torsoSprite[1];
+            leftArmPart.sprite = armSprite[2];
+            rightArmPart.sprite = armSprite[3];
             Manager.manager.currentScore -= pirateOutfit19Price;
             outfit19IsBuy = true;
             shopText19.text = null;
@@ -595,6 +603,8 @@ public class OutfitChanger : MonoBehaviour
         {
             pirateOutfit19.interactable = true;
             torsoPart.sprite = torsoSprite[1];
+            leftArmPart.sprite = armSprite[2];
+            rightArmPart.sprite = armSprite[3];
         }
     }
 

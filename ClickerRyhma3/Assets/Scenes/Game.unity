@@ -624,8 +624,8 @@ MonoBehaviour:
   - {fileID: -6551595076017246238, guid: 9589ba553a8f59047b9abb99bd5e3182, type: 3}
   torsoPart: {fileID: 966222457}
   torsoSprite:
-  - {fileID: 4450630935660454219, guid: 07c9eb608eb7c354f9cbd6c531380f49, type: 3}
-  - {fileID: -2816392880337936184, guid: 07c9eb608eb7c354f9cbd6c531380f49, type: 3}
+  - {fileID: 6302821712988010299, guid: d7940477fc833ff4781a5da840e637f5, type: 3}
+  - {fileID: -4822722534937657919, guid: d7940477fc833ff4781a5da840e637f5, type: 3}
   - {fileID: -4619587395233824268, guid: 07c9eb608eb7c354f9cbd6c531380f49, type: 3}
   - {fileID: -6756138274609054335, guid: 4ffe32fda66656045939c4d4ccadaac7, type: 3}
   - {fileID: 5315843867808367845, guid: decbc99af546ae94b8f6b5c22de77448, type: 3}
@@ -641,11 +641,13 @@ MonoBehaviour:
   - {fileID: 8168928756855429467, guid: decbc99af546ae94b8f6b5c22de77448, type: 3}
   - {fileID: 8043940620071352117, guid: decbc99af546ae94b8f6b5c22de77448, type: 3}
   - {fileID: 1449136159946460471, guid: 4ffe32fda66656045939c4d4ccadaac7, type: 3}
-  leftArmPart: {fileID: 632234852}
-  rightArmPart: {fileID: 990611091}
+  leftArmPart: {fileID: 241375803}
+  rightArmPart: {fileID: 613209649}
   armSprite:
-  - {fileID: 1299139978841824306, guid: 2719a860448aa1242b1f46c5f6f7eeaa, type: 3}
-  - {fileID: 499286551136875762, guid: 2719a860448aa1242b1f46c5f6f7eeaa, type: 3}
+  - {fileID: 8366101303120792257, guid: d7940477fc833ff4781a5da840e637f5, type: 3}
+  - {fileID: -933726869377947401, guid: d7940477fc833ff4781a5da840e637f5, type: 3}
+  - {fileID: -1818316854883632506, guid: d7940477fc833ff4781a5da840e637f5, type: 3}
+  - {fileID: 563310961796924649, guid: d7940477fc833ff4781a5da840e637f5, type: 3}
   leftLegPart: {fileID: 1554454207}
   rightLegPart: {fileID: 144761899}
   legsSprite:
@@ -3717,6 +3719,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
+--- !u!212 &241375803 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 6768684173333474364, guid: cb6870eff1aa0d44eba077e2897cecce, type: 3}
+  m_PrefabInstance: {fileID: 2530667}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &244656564
 GameObject:
   m_ObjectHideFlags: 0
@@ -7795,6 +7802,11 @@ RectTransform:
   m_AnchoredPosition: {x: 19, y: 58.639}
   m_SizeDelta: {x: 284.73, y: 53}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!212 &613209649 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 6768684174222946723, guid: cb6870eff1aa0d44eba077e2897cecce, type: 3}
+  m_PrefabInstance: {fileID: 2530667}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &622584772
 GameObject:
   m_ObjectHideFlags: 0
@@ -7870,11 +7882,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 622584772}
   m_CullTransparentMesh: 1
---- !u!212 &632234852 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 6978201156748505898, guid: 1ad4d20bbbb07bd408b2bffa55d6b816, type: 3}
-  m_PrefabInstance: {fileID: 1703681017}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &636767468
 GameObject:
   m_ObjectHideFlags: 0
@@ -12351,11 +12358,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 989642527}
   m_CullTransparentMesh: 1
---- !u!212 &990611091 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 6978201155868057936, guid: 1ad4d20bbbb07bd408b2bffa55d6b816, type: 3}
-  m_PrefabInstance: {fileID: 1703681017}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &991342331 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3492020847739726481, guid: 202c2f9d23fe0cc4f898e804e82e3c1a, type: 3}
