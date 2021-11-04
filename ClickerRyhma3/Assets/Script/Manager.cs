@@ -12,6 +12,11 @@ public class Manager : MonoBehaviour
 
     [SerializeField] GameObject coinPrefab;
 
+    bool isBought = false;
+
+    //BOUGHT MARKERS
+    public GameObject abilityBought;
+
     //LUCKY HIT 
     public float target = 0.05f;
     public float luckyHitInc = 0.01f;
@@ -256,7 +261,9 @@ public class Manager : MonoBehaviour
 
     public void AbilityButton()
     {
-        if(currentScore >= abilityButtonPrice)
+        
+
+        if(!isBought && currentScore >= abilityButtonPrice)
         {
             clickDmgStat += 5;
             autoClickStat += 5;
@@ -264,6 +271,11 @@ public class Manager : MonoBehaviour
             x += 5;
             currentScore -= abilityButtonPrice;
             abilityButton.SetActive(true);
+            isBought = true;
+            abilityBought.SetActive(true);
+        }
+        if(isBought)
+        {
             abilityUpgradeButton.interactable = false;
         }
     }
@@ -392,11 +404,11 @@ public class Manager : MonoBehaviour
             luckyHitButton.interactable = false;
         }
         //Ability Button
-        if (currentScore >= abilityButtonPrice)
+        if (!isBought && currentScore >= abilityButtonPrice)
         {
             abilityUpgradeButton.interactable = true;
         }
-        else
+        if(isBought)
         {
             abilityUpgradeButton.interactable = false;
         }

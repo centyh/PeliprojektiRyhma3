@@ -10,6 +10,7 @@ public class Boosts : MonoBehaviour
     public GameObject coinText;
     public GameObject coinsLost;
     public GameObject luckyHitText;
+    public GameObject autoClickText;
 
     public Text coinsText;
     public Text coinsLostText;
@@ -92,7 +93,7 @@ public class Boosts : MonoBehaviour
         amountCoins2 = Random.Range(100, 1000);
 
         float randValue;
-        randValue = Random.Range(1, 3);
+        randValue = Random.Range(1, 4);
 
         if(randValue == 1)
         {
@@ -110,6 +111,7 @@ public class Boosts : MonoBehaviour
         {
             StartCoroutine(BoostTime2());
             Debug.Log("Auto Click started");
+            StartCoroutine(Wait4());
         }
     }
 
@@ -148,6 +150,13 @@ public class Boosts : MonoBehaviour
         coinsLost.SetActive(true);
         yield return new WaitForSeconds(5);
         coinsLost.SetActive(false);
+    }
+
+    IEnumerator Wait4()
+    {
+        autoClickText.SetActive(true);
+        yield return new WaitForSeconds(5);
+        autoClickText.SetActive(false);
     }
 
     IEnumerator BoostTime()

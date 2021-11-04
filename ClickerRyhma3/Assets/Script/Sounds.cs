@@ -12,6 +12,7 @@ public class Sounds : MonoBehaviour
     public AudioSource audioSource;
     public AudioSource paperSound;
     public AudioSource coinSound;
+    public AudioSource woodSound;
 
 
     private void Start()
@@ -24,6 +25,7 @@ public class Sounds : MonoBehaviour
         audioSource.volume = musicVolume;
         coinSound.volume = soundsVolume;
         paperSound.volume = soundsVolume;
+        woodSound.volume = soundsVolume;
     }
 
     public void UpdateVolume(float volume)
