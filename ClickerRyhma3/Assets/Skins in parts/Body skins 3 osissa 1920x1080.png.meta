@@ -1,0 +1,468 @@
+fileFormatVersion: 2
+guid: d7940477fc833ff4781a5da840e637f5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3955996191908842362
+    second: Red_corset_skin_body
+  - first:
+      213: 6302821712988010299
+    second: Brown_suit_skin_body
+  - first:
+      213: -933726869377947401
+    second: Brown_suit_skin_right_arm
+  - first:
+      213: -1818316854883632506
+    second: Skull_belt_skin_left_arm
+  - first:
+      213: -4822722534937657919
+    second: Skull_belt_skin_body
+  - first:
+      213: -6891661773397161478
+    second: Red_corset_skin_right_arm
+  - first:
+      213: 8366101303120792257
+    second: Brown_suit_skin_left_arm
+  - first:
+      213: 563310961796924649
+    second: Skull_belt_skin_right_arm
+  - first:
+      213: 559307009643769475
+    second: Red_corset_skin_left_arm
+  - first:
+      213: 1266547843708614381
+    second: Blue_suit_skin_right_arm
+  - first:
+      213: 8010499752363297293
+    second: Green_lace_skin_left_arm
+  - first:
+      213: -6414345949003341220
+    second: Green_lace_skin_body
+  - first:
+      213: -6421019973876168238
+    second: Blue_suit_skin_body
+  - first:
+      213: -5369761013770194368
+    second: Blue_suit_skin_left_arm
+  - first:
+      213: -626786517163050482
+    second: Green_lace_skin_right_arm
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Red_corset_skin_body
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 662
+        width: 290
+        height: 399
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684b9785c6a7919c0800000000000000
+      internalID: -3955996191908842362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown_suit_skin_body
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 663
+        width: 310
+        height: 416
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37f44544fe187750800000000000000
+      internalID: 6302821712988010299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown_suit_skin_right_arm
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 865
+        width: 172
+        height: 172
+      alignment: 9
+      pivot: {x: 0.2369108, y: 0.79232186}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f86d710c5cba03f0800000000000000
+      internalID: -933726869377947401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull_belt_skin_left_arm
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 910
+        width: 158
+        height: 150
+      alignment: 9
+      pivot: {x: 0.8394389, y: 0.8128491}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a3e8f447a04c6e0800000000000000
+      internalID: -1818316854883632506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull_belt_skin_body
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 651
+        width: 279
+        height: 415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cdf4c6086f321db0800000000000000
+      internalID: -4822722534937657919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_corset_skin_right_arm
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 572
+        width: 158
+        height: 142
+      alignment: 9
+      pivot: {x: 0.1235126, y: 0.88882715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af906847126eb50a0800000000000000
+      internalID: -6891661773397161478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown_suit_skin_left_arm
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 652
+        width: 169
+        height: 160
+      alignment: 9
+      pivot: {x: 0.80742794, y: 0.82472074}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca82774fcc5a1470800000000000000
+      internalID: 8366101303120792257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull_belt_skin_right_arm
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 658
+        width: 188
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e44dffc55841d700800000000000000
+      internalID: 563310961796924649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_corset_skin_left_arm
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 384
+        width: 155
+        height: 136
+      alignment: 9
+      pivot: {x: 0.84005386, y: 0.8351953}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ee33e03ce03c700800000000000000
+      internalID: 559307009643769475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_suit_skin_right_arm
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 383
+        width: 159
+        height: 139
+      alignment: 9
+      pivot: {x: 0.18515341, y: 0.81513155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6f94bad8ea39110800000000000000
+      internalID: 1266547843708614381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_lace_skin_left_arm
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 269
+        width: 164
+        height: 149
+      alignment: 9
+      pivot: {x: 0.8164438, y: 0.83519524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a08f455130b2f60800000000000000
+      internalID: 8010499752363297293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_lace_skin_body
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 26
+        width: 305
+        height: 379
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52a033185aabf6a0800000000000000
+      internalID: -6414345949003341220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_suit_skin_body
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 12
+        width: 285
+        height: 352
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d94c619a54f3e6a0800000000000000
+      internalID: -6421019973876168238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_suit_skin_left_arm
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 173
+        width: 164
+        height: 151
+      alignment: 9
+      pivot: {x: 0.7657039, y: 0.7885787}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0427c75eec6ca75b0800000000000000
+      internalID: -5369761013770194368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_lace_skin_right_arm
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 23
+        width: 162
+        height: 151
+      alignment: 9
+      pivot: {x: 0.17116962, y: 0.80143386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0afd76cbf43d47f0800000000000000
+      internalID: -626786517163050482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

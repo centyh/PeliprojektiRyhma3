@@ -1,0 +1,540 @@
+fileFormatVersion: 2
+guid: b522c0370eec8af4ea74ebef036604d5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4362124254294204756
+    second: Gold_chain_skin_body
+  - first:
+      213: 1061396773870185831
+    second: Gold_chain_skin_right_arm
+  - first:
+      213: -4692561473496225018
+    second: Purple_tanktop_skin_body
+  - first:
+      213: 4522135277626720688
+    second: Jack_Sparrow_skin_left_arm
+  - first:
+      213: -4153190832022311946
+    second: Jack_Sparrow_skin_body
+  - first:
+      213: -6850938086054305274
+    second: Gold_chain_skin_left_arm
+  - first:
+      213: 6450857998909076104
+    second: Purple_tanktop_skin_left_arm
+  - first:
+      213: -3626116496061904731
+    second: Jack_Sparrow_skin_right_arm
+  - first:
+      213: -4401755529726602172
+    second: Black_suit_skin_left_arm
+  - first:
+      213: 3616331066326078273
+    second: Black_suit_skin_right_arm
+  - first:
+      213: 2044680084258020020
+    second: Purple_tanktop_skin_right_arm
+  - first:
+      213: -1619271840886362200
+    second: Black_suit_skin_body
+  - first:
+      213: -7220591608942413607
+    second: Light_pink_skirt_skin_body
+  - first:
+      213: -4658574272025048507
+    second: Light_pink_skirt_skin_left_arm
+  - first:
+      213: -6933008263945907949
+    second: Brown_vest_skin_left_arm
+  - first:
+      213: -2548001762843344692
+    second: Brown_vest_skin_body
+  - first:
+      213: -3767863963699593055
+    second: Light_pink_skirt_skin_right_arm
+  - first:
+      213: -5787839844558242347
+    second: Brown_vest_skin_right_arm
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gold_chain_skin_body
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 674
+        width: 312
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae9dac2a1f9673c0800000000000000
+      internalID: -4362124254294204756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold_chain_skin_right_arm
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 940
+        width: 154
+        height: 140
+      alignment: 9
+      pivot: {x: 0.1316232, y: 0.8322504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d27480eb6dabe00800000000000000
+      internalID: 1061396773870185831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple_tanktop_skin_body
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 673
+        width: 294
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60be29db33ca0eeb0800000000000000
+      internalID: -4692561473496225018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_Sparrow_skin_left_arm
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 906
+        width: 148
+        height: 139
+      alignment: 9
+      pivot: {x: 0.87371296, y: 0.85006833}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b10431631ad1ce30800000000000000
+      internalID: 4522135277626720688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_Sparrow_skin_body
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 650
+        width: 366
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fba6ec51f6ec56c0800000000000000
+      internalID: -4153190832022311946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold_chain_skin_left_arm
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 738
+        width: 163
+        height: 150
+      alignment: 9
+      pivot: {x: 0.8532372, y: 0.84334403}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602e98acb149ce0a0800000000000000
+      internalID: -6850938086054305274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple_tanktop_skin_left_arm
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 670
+        width: 154
+        height: 139
+      alignment: 9
+      pivot: {x: 0.885039, y: 0.83756644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88276710c2d068950800000000000000
+      internalID: 6450857998909076104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_Sparrow_skin_right_arm
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 702
+        width: 156
+        height: 140
+      alignment: 9
+      pivot: {x: 0.17213707, y: 0.84862626}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8cb0242427dadc0800000000000000
+      internalID: -3626116496061904731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_suit_skin_left_arm
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 471
+        width: 151
+        height: 136
+      alignment: 9
+      pivot: {x: 0.85467964, y: 0.86344355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444d88ecaa2d9e2c0800000000000000
+      internalID: -4401755529726602172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_suit_skin_right_arm
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 476
+        width: 148
+        height: 135
+      alignment: 9
+      pivot: {x: 0.111397, y: 0.8775169}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1435396d1f9cf2230800000000000000
+      internalID: 3616331066326078273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple_tanktop_skin_right_arm
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 479
+        width: 150
+        height: 138
+      alignment: 9
+      pivot: {x: 0.1715822, y: 0.82506394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bad38514b9206c10800000000000000
+      internalID: 2044680084258020020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_suit_skin_body
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4
+        width: 293
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8afec2907d03789e0800000000000000
+      internalID: -1619271840886362200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Light_pink_skirt_skin_body
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 21
+        width: 346
+        height: 359
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d832d0203e4bcb90800000000000000
+      internalID: -7220591608942413607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Light_pink_skirt_skin_left_arm
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 237
+        width: 154
+        height: 139
+      alignment: 9
+      pivot: {x: 0.84729004, y: 0.8670231}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a4c2cb16b695fb0800000000000000
+      internalID: -4658574272025048507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown_vest_skin_left_arm
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 236
+        width: 144
+        height: 136
+      alignment: 9
+      pivot: {x: 0.8510645, y: 0.8375667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31118a277b109cf90800000000000000
+      internalID: -6933008263945907949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown_vest_skin_body
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 0
+        width: 275
+        height: 391
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc047a685eda3acd0800000000000000
+      internalID: -2548001762843344692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Light_pink_skirt_skin_right_arm
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 51
+        width: 146
+        height: 139
+      alignment: 9
+      pivot: {x: 0.16511144, y: 0.8418642}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0c0b120bbd5bbc0800000000000000
+      internalID: -3767863963699593055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown_vest_skin_right_arm
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 40
+        width: 154
+        height: 131
+      alignment: 9
+      pivot: {x: 0.18290733, y: 0.8375667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ddf040a3567dafa0800000000000000
+      internalID: -5787839844558242347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

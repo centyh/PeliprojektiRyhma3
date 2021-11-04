@@ -1,0 +1,540 @@
+fileFormatVersion: 2
+guid: 3e83741f8c28b8d4ca89189c8263e8e4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4987903610746435368
+    second: Grey_dress_skin_body
+  - first:
+      213: -1439335533721507284
+    second: Stewie_skin_left_arm
+  - first:
+      213: 6629287983308837543
+    second: Stewie_skin_body
+  - first:
+      213: -6789490462897348842
+    second: Two_swords_and_belt_skin_right_arm
+  - first:
+      213: -2301685590793745206
+    second: Two_swords_and_belt_skin_body
+  - first:
+      213: 2935011659361856686
+    second: Stewie_skin_right_arm
+  - first:
+      213: 5312345501824770237
+    second: Two_swords_and_belt_skin_left_arm
+  - first:
+      213: -5749893952576915990
+    second: Green_shirt_skin_left_arm
+  - first:
+      213: -4084643338856570672
+    second: Green_corset_skin_left_arm
+  - first:
+      213: -7774410527600218666
+    second: Green_corset_skin_right_arm
+  - first:
+      213: -6770638752336392102
+    second: Grey_dress_skin_left_arm
+  - first:
+      213: 6582553329951888640
+    second: Green_shirt_skin_body
+  - first:
+      213: -86187841244887971
+    second: Pirate_Geralt_skin_body
+  - first:
+      213: -4449270978619217723
+    second: Pirate_Geralt_skin_right_arm
+  - first:
+      213: -2146428922555948238
+    second: Grey_dress_skin_right_arm
+  - first:
+      213: -7080500286869977677
+    second: Green_corset_skin_body
+  - first:
+      213: 7217608706495660166
+    second: Green_shirt_skin_right_arm
+  - first:
+      213: -2154087278688244394
+    second: Pirate_Geralt_skin_left_arm
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Grey_dress_skin_body
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 680
+        width: 309
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d80293d71867cab0800000000000000
+      internalID: -4987903610746435368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stewie_skin_left_arm
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 896
+        width: 154
+        height: 141
+      alignment: 9
+      pivot: {x: 0.84765583, y: 0.8176367}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2aaeef35f3760ce0800000000000000
+      internalID: -1439335533721507284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stewie_skin_body
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 698
+        width: 280
+        height: 379
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a293ee1c46fffb50800000000000000
+      internalID: 6629287983308837543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Two_swords_and_belt_skin_right_arm
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 912
+        width: 141
+        height: 129
+      alignment: 9
+      pivot: {x: 0.14684439, y: 0.8564658}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61fd9117562e6c1a0800000000000000
+      internalID: -6789490462897348842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Two_swords_and_belt_skin_body
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 683
+        width: 357
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc8a186625ce00e0800000000000000
+      internalID: -2301685590793745206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stewie_skin_right_arm
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 745
+        width: 162
+        height: 132
+      alignment: 9
+      pivot: {x: 0.17632061, y: 0.8176367}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaca4e7cd814bb820800000000000000
+      internalID: 2935011659361856686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Two_swords_and_belt_skin_left_arm
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 680
+        width: 151
+        height: 135
+      alignment: 9
+      pivot: {x: 0.87333703, y: 0.8453262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0e860861e39b940800000000000000
+      internalID: 5312345501824770237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_shirt_skin_left_arm
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 409
+        width: 144
+        height: 139
+      alignment: 9
+      pivot: {x: 0.8356675, y: 0.8573413}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae57c741ae54430b0800000000000000
+      internalID: -5749893952576915990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_corset_skin_left_arm
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 465
+        width: 166
+        height: 143
+      alignment: 9
+      pivot: {x: 0.88462037, y: 0.89886093}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0e941568e6057c0800000000000000
+      internalID: -4084643338856570672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_corset_skin_right_arm
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 483
+        width: 148
+        height: 140
+      alignment: 9
+      pivot: {x: 0.12351216, y: 0.88882715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dde454d0debb1490800000000000000
+      internalID: -7774410527600218666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grey_dress_skin_left_arm
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 475
+        width: 143
+        height: 130
+      alignment: 9
+      pivot: {x: 0.9036927, y: 0.88473094}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50de785debd902a0800000000000000
+      internalID: -6770638752336392102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_shirt_skin_body
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 5
+        width: 274
+        height: 377
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005d8d2b06de95b50800000000000000
+      internalID: 6582553329951888640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_Geralt_skin_body
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 3
+        width: 351
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5404a27d9ccdcef0800000000000000
+      internalID: -86187841244887971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_Geralt_skin_right_arm
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 267
+        width: 155
+        height: 145
+      alignment: 9
+      pivot: {x: 0.095410325, y: 0.8958188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c862f14e930142c0800000000000000
+      internalID: -4449270978619217723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grey_dress_skin_right_arm
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 306
+        width: 138
+        height: 125
+      alignment: 9
+      pivot: {x: 0.12045686, y: 0.87330323}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 233ad67644a5632e0800000000000000
+      internalID: -2146428922555948238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_corset_skin_body
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 9
+        width: 322
+        height: 387
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b54011d0820dbd90800000000000000
+      internalID: -7080500286869977677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_shirt_skin_right_arm
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 147
+        width: 151
+        height: 136
+      alignment: 9
+      pivot: {x: 0.1809446, y: 0.7996086}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680c076c0e81a2460800000000000000
+      internalID: 7217608706495660166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_Geralt_skin_left_arm
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 31
+        width: 146
+        height: 132
+      alignment: 9
+      pivot: {x: 0.90342736, y: 0.911526}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d699a68052b12e0800000000000000
+      internalID: -2154087278688244394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
