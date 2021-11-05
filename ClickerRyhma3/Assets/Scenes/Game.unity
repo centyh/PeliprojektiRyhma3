@@ -231,6 +231,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6768684172422776830, guid: cb6870eff1aa0d44eba077e2897cecce, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 6768684172422776830, guid: cb6870eff1aa0d44eba077e2897cecce, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.95
+      objectReference: {fileID: 0}
     - target: {fileID: 6768684173593419128, guid: cb6870eff1aa0d44eba077e2897cecce, type: 3}
       propertyPath: m_Name
       value: MainCharNew
@@ -605,8 +613,8 @@ MonoBehaviour:
   pet33Price: 50
   headPart: {fileID: 2120400308}
   options:
-  - {fileID: -8805176296304449708, guid: 9c9d3ab30018eea4ebbb92babb5c40f9, type: 3}
-  - {fileID: 6568382358185744816, guid: 4e945e350efe0ed4ea9147e3c914df46, type: 3}
+  - {fileID: 2708427289758467547, guid: d6ad8a722718f2340bcf876adbdf3ad1, type: 3}
+  - {fileID: -5403938682868689835, guid: c3282615d5bd2d14db2c7f261b962120, type: 3}
   - {fileID: 3221983372517202416, guid: bf6b7e861871d0344995a2db0a3ee1c1, type: 3}
   - {fileID: -3880725052371438126, guid: c0117b83dd4e05848b7a2030dc551aa8, type: 3}
   - {fileID: 1278166429120856807, guid: cc49ff8ce4af71d478ab744320266b3d, type: 3}
@@ -622,6 +630,10 @@ MonoBehaviour:
   - {fileID: -4325997163928350681, guid: 86d38ac7a56e81045ae1aa75197499c4, type: 3}
   - {fileID: 7771481777081758248, guid: e0e696913654dea4aa9ca3c5b9e53763, type: 3}
   - {fileID: -6551595076017246238, guid: 9589ba553a8f59047b9abb99bd5e3182, type: 3}
+  eyesClosePart: {fileID: 1737610665}
+  eyes:
+  - {fileID: 3282273428690795961, guid: 13a688cd55e9da7479a17f21d963838a, type: 3}
+  - {fileID: 1108147771910246365, guid: 8036c6da460e78c459483f1e2480923b, type: 3}
   torsoPart: {fileID: 966222457}
   torsoSprite:
   - {fileID: 6302821712988010299, guid: d7940477fc833ff4781a5da840e637f5, type: 3}
@@ -21825,6 +21837,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1721863169}
   m_CullTransparentMesh: 1
+--- !u!212 &1737610665 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 6768684172943593751, guid: cb6870eff1aa0d44eba077e2897cecce, type: 3}
+  m_PrefabInstance: {fileID: 2530667}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1750398336
 GameObject:
   m_ObjectHideFlags: 0
