@@ -1,0 +1,516 @@
+fileFormatVersion: 2
+guid: 47439ee6e75c7ca43993d2eba11fa773
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -171685514335189824
+    second: Valikko_Grafiikoita_Export_3_take2_0
+  - first:
+      213: -7483396611276620513
+    second: Valikko_Grafiikoita_Export_3_take2_1
+  - first:
+      213: -7341270892736592077
+    second: Valikko_Grafiikoita_Export_3_take2_2
+  - first:
+      213: -7288649493165476115
+    second: Valikko_Grafiikoita_Export_3_take2_3
+  - first:
+      213: -2746072696577568263
+    second: Valikko_Grafiikoita_Export_3_take2_4
+  - first:
+      213: -1524862233388357343
+    second: Valikko_Grafiikoita_Export_3_take2_5
+  - first:
+      213: 496336845742737544
+    second: Valikko_Grafiikoita_Export_3_take2_6
+  - first:
+      213: 5224205238617907202
+    second: Valikko_Grafiikoita_Export_3_take2_7
+  - first:
+      213: 1943624617360643996
+    second: Valikko_Grafiikoita_Export_3_take2_8
+  - first:
+      213: -5110129095719080731
+    second: Valikko_Grafiikoita_Export_3_take2_9
+  - first:
+      213: -3031984351552437189
+    second: Valikko_Grafiikoita_Export_3_take2_10
+  - first:
+      213: 4334198834533290083
+    second: Valikko_Grafiikoita_Export_3_take2_11
+  - first:
+      213: 4059458217872924214
+    second: Valikko_Grafiikoita_Export_3_take2_12
+  - first:
+      213: -7192716491478637746
+    second: Valikko_Grafiikoita_Export_3_take2_13
+  - first:
+      213: -5820756582991288557
+    second: Valikko_Grafiikoita_Export_3_take2_14
+  - first:
+      213: 5508454012945097653
+    second: Valikko_Grafiikoita_Export_3_take2_15
+  - first:
+      213: -7422231021501566998
+    second: Valikko_Grafiikoita_Export_3_take2_16
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Valikko_Grafiikoita_Export_3_take2_0
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 910
+        width: 120
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c488f03fec0e9df0800000000000000
+      internalID: -171685514335189824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Valikko_Grafiikoita_Export_3_take2_1
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 902
+        width: 104
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1dbe774e62a52890800000000000000
+      internalID: -7483396611276620513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Valikko_Grafiikoita_Export_3_take2_2
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 903
+        width: 81
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337458ec4019e1a90800000000000000
+      internalID: -7341270892736592077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Valikko_Grafiikoita_Export_3_take2_3
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 912
+        width: 70
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de67a8327e389da90800000000000000
+      internalID: -7288649493165476115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Valikko_Grafiikoita_Export_3_take2_4
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 901
+        width: 131
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f158198e6df3e9d0800000000000000
+      internalID: -2746072696577568263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Valikko_Grafiikoita_Export_3_take2_5
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 759
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1296a77b0e996dae0800000000000000
+      internalID: -1524862233388357343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Valikko_Grafiikoita_Export_3_take2_6
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 727
+        width: 132
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8880f634bb753e600800000000000000
+      internalID: 496336845742737544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Valikko_Grafiikoita_Export_3_take2_7
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 742
+        width: 137
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2002e894cfa108840800000000000000
+      internalID: 5224205238617907202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Valikko_Grafiikoita_Export_3_take2_8
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 767
+        width: 137
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c975c7eaa4429fa10800000000000000
+      internalID: 1943624617360643996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Valikko_Grafiikoita_Export_3_take2_9
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 759
+        width: 89
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eca64d79ac2519b0800000000000000
+      internalID: -5110129095719080731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Valikko_Grafiikoita_Export_3_take2_10
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 756
+        width: 191
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b348c21eb4a3ce5d0800000000000000
+      internalID: -3031984351552437189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Valikko_Grafiikoita_Export_3_take2_11
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 741
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360d44e50ea262c30800000000000000
+      internalID: 4334198834533290083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Valikko_Grafiikoita_Export_3_take2_12
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 737
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e1bd0cdb7165830800000000000000
+      internalID: 4059458217872924214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Valikko_Grafiikoita_Export_3_take2_13
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 747
+        width: 65
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43625ba5765e2c90800000000000000
+      internalID: -7192716491478637746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Valikko_Grafiikoita_Export_3_take2_14
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 751
+        width: 45
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317a9ca3ab4883fa0800000000000000
+      internalID: -5820756582991288557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Valikko_Grafiikoita_Export_3_take2_15
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 739
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3ea2f5db5f17c40800000000000000
+      internalID: 5508454012945097653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Valikko_Grafiikoita_Export_3_take2_16
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 733
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aefa38ae530fef890800000000000000
+      internalID: -7422231021501566998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
