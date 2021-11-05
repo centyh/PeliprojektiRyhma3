@@ -4,7 +4,7 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 8741662804878022388
-    second: Brown_Mickey_Mouse_hair_skin_eyes_open
+    second: Head 9 1920x1080_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -94,15 +94,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Brown_Mickey_Mouse_hair_skin_eyes_open
+      name: Head 9 1920x1080_0
       rect:
         serializedVersion: 2
-        x: 794
-        y: 366
-        width: 408
-        height: 421
+        x: 811
+        y: 385
+        width: 378
+        height: 390
       alignment: 9
-      pivot: {x: 0.5000002, y: 0.078019746}
+      pivot: {x: 0.5, y: 0.07948718}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

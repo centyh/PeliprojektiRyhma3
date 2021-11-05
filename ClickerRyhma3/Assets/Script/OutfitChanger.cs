@@ -330,6 +330,7 @@ public class OutfitChanger : MonoBehaviour
         if (Manager.manager.currentScore >= pirateHat3Price && !hat3IsBuy)
         {
             headPart.sprite = options[2];
+            eyesClosePart.sprite = eyes[2];
             Manager.manager.currentScore -= pirateHat3Price;
             hat3IsBuy = true;
             shopText3.text = null;
@@ -339,6 +340,7 @@ public class OutfitChanger : MonoBehaviour
         {
             pirateHat3.interactable = true;
             headPart.sprite = options[2];
+            eyesClosePart.sprite = eyes[2];
         }
     }
 
@@ -347,6 +349,7 @@ public class OutfitChanger : MonoBehaviour
         if (Manager.manager.currentScore >= pirateHat4Price && !hat4IsBuy)
         {
             headPart.sprite = options[3];
+            eyesClosePart.sprite = eyes[3];
             Manager.manager.currentScore -= pirateHat4Price;
             hat4IsBuy = true;
             shopText4.text = null;
@@ -356,6 +359,7 @@ public class OutfitChanger : MonoBehaviour
         {
             pirateHat4.interactable = true;
             headPart.sprite = options[3];
+            eyesClosePart.sprite = eyes[3];
         }
     }
 
@@ -364,6 +368,7 @@ public class OutfitChanger : MonoBehaviour
         if (Manager.manager.currentScore >= pirateHat5Price && !hat5IsBuy)
         {
             headPart.sprite = options[4];
+            eyesClosePart.sprite = eyes[4];
             Manager.manager.currentScore -= pirateHat5Price;
             hat5IsBuy = true;
             shopText5.text = null;
@@ -373,6 +378,7 @@ public class OutfitChanger : MonoBehaviour
         {
             pirateHat5.interactable = true;
             headPart.sprite = options[4];
+            eyesClosePart.sprite = eyes[4];
         }
     }
 
@@ -381,6 +387,7 @@ public class OutfitChanger : MonoBehaviour
         if (Manager.manager.currentScore >= pirateHat6Price && !hat6IsBuy)
         {
             headPart.sprite = options[5];
+            eyesClosePart.sprite = eyes[5];
             Manager.manager.currentScore -= pirateHat6Price;
             hat6IsBuy = true;
             shopText6.text = null;
@@ -390,6 +397,7 @@ public class OutfitChanger : MonoBehaviour
         {
             pirateHat6.interactable = true;
             headPart.sprite = options[5];
+            eyesClosePart.sprite = eyes[5];
         }
     }
 
@@ -398,6 +406,7 @@ public class OutfitChanger : MonoBehaviour
         if (Manager.manager.currentScore >= pirateHat7Price && !hat7IsBuy)
         {
             headPart.sprite = options[6];
+            eyesClosePart.sprite = eyes[6];
             Manager.manager.currentScore -= pirateHat7Price;
             hat7IsBuy = true;
             shopText7.text = null;
@@ -407,6 +416,7 @@ public class OutfitChanger : MonoBehaviour
         {
             pirateHat7.interactable = true;
             headPart.sprite = options[6];
+            eyesClosePart.sprite = eyes[6];
         }
     }
 
@@ -415,6 +425,7 @@ public class OutfitChanger : MonoBehaviour
         if (Manager.manager.currentScore >= pirateHat8Price && !hat8IsBuy)
         {
             headPart.sprite = options[7];
+            eyesClosePart.sprite = eyes[7];
             Manager.manager.currentScore -= pirateHat8Price;
             hat8IsBuy = true;
             shopText8.text = null;
@@ -424,6 +435,7 @@ public class OutfitChanger : MonoBehaviour
         {
             pirateHat8.interactable = true;
             headPart.sprite = options[7];
+            eyesClosePart.sprite = eyes[7];
         }
     }
 
@@ -432,6 +444,7 @@ public class OutfitChanger : MonoBehaviour
         if (Manager.manager.currentScore >= pirateHat9Price && !hat9IsBuy)
         {
             headPart.sprite = options[8];
+            eyesClosePart.sprite = eyes[8];
             Manager.manager.currentScore -= pirateHat9Price;
             hat9IsBuy = true;
             shopText9.text = null;
@@ -441,6 +454,7 @@ public class OutfitChanger : MonoBehaviour
         {
             pirateHat9.interactable = true;
             headPart.sprite = options[8];
+            eyesClosePart.sprite = eyes[8];
         }
     }
 
@@ -449,6 +463,7 @@ public class OutfitChanger : MonoBehaviour
         if (Manager.manager.currentScore >= pirateHat10Price && !hat10IsBuy)
         {
             headPart.sprite = options[9];
+            eyesClosePart.sprite = eyes[9];
             Manager.manager.currentScore -= pirateHat10Price;
             hat10IsBuy = true;
             shopText10.text = null;
@@ -458,6 +473,7 @@ public class OutfitChanger : MonoBehaviour
         {
             pirateHat10.interactable = true;
             headPart.sprite = options[9];
+            eyesClosePart.sprite = eyes[9];
         }
     }
 
@@ -466,6 +482,7 @@ public class OutfitChanger : MonoBehaviour
         if (Manager.manager.currentScore >= pirateHat11Price && !hat11IsBuy)
         {
             headPart.sprite = options[10];
+            eyesClosePart.sprite = eyes[10];
             Manager.manager.currentScore -= pirateHat11Price;
             hat11IsBuy = true;
             shopText11.text = null;
@@ -475,6 +492,7 @@ public class OutfitChanger : MonoBehaviour
         {
             pirateHat11.interactable = true;
             headPart.sprite = options[10];
+            eyesClosePart.sprite = eyes[10];
         }
     }
 
@@ -483,6 +501,7 @@ public class OutfitChanger : MonoBehaviour
         if (Manager.manager.currentScore >= pirateHat12Price && !hat12IsBuy)
         {
             headPart.sprite = options[11];
+            eyesClosePart.sprite = eyes[11];
             Manager.manager.currentScore -= pirateHat12Price;
             hat12IsBuy = true;
             shopText12.text = null;
@@ -492,6 +511,7 @@ public class OutfitChanger : MonoBehaviour
         {
             pirateHat12.interactable = true;
             headPart.sprite = options[11];
+            eyesClosePart.sprite = eyes[11];
         }
     }
 
@@ -500,6 +520,7 @@ public class OutfitChanger : MonoBehaviour
         if (Manager.manager.currentScore >= pirateHat13Price && !hat13IsBuy)
         {
             headPart.sprite = options[12];
+            eyesClosePart.sprite = eyes[12];
             Manager.manager.currentScore -= pirateHat13Price;
             hat13IsBuy = true;
             shopText13.text = null;
@@ -509,6 +530,7 @@ public class OutfitChanger : MonoBehaviour
         {
             pirateHat13.interactable = true;
             headPart.sprite = options[12];
+            eyesClosePart.sprite = eyes[12];
         }
     }
 
@@ -517,6 +539,7 @@ public class OutfitChanger : MonoBehaviour
         if (Manager.manager.currentScore >= pirateHat14Price && !hat14IsBuy)
         {
             headPart.sprite = options[13];
+            eyesClosePart.sprite = eyes[13];
             Manager.manager.currentScore -= pirateHat14Price;
             hat14IsBuy = true;
             shopText14.text = null;
@@ -526,6 +549,7 @@ public class OutfitChanger : MonoBehaviour
         {
             pirateHat14.interactable = true;
             headPart.sprite = options[13];
+            eyesClosePart.sprite = eyes[13];
         }
     }
 
@@ -534,6 +558,7 @@ public class OutfitChanger : MonoBehaviour
         if (Manager.manager.currentScore >= pirateHat15Price && !hat15IsBuy)
         {
             headPart.sprite = options[14];
+            eyesClosePart.sprite = eyes[14];
             Manager.manager.currentScore -= pirateHat15Price;
             hat15IsBuy = true;
             shopText15.text = null;
@@ -543,6 +568,7 @@ public class OutfitChanger : MonoBehaviour
         {
             pirateHat15.interactable = true;
             headPart.sprite = options[14];
+            eyesClosePart.sprite = eyes[14];
         }
     }
 
@@ -551,6 +577,7 @@ public class OutfitChanger : MonoBehaviour
         if (Manager.manager.currentScore >= pirateHat16Price && !hat16IsBuy)
         {
             headPart.sprite = options[15];
+            eyesClosePart.sprite = eyes[15];
             Manager.manager.currentScore -= pirateHat16Price;
             hat16IsBuy = true;
             shopText16.text = null;
@@ -560,6 +587,7 @@ public class OutfitChanger : MonoBehaviour
         {
             pirateHat16.interactable = true;
             headPart.sprite = options[15];
+            eyesClosePart.sprite = eyes[15];
         }
     }
 
@@ -568,6 +596,7 @@ public class OutfitChanger : MonoBehaviour
         if (Manager.manager.currentScore >= pirateHat17Price && !hat17IsBuy)
         {
             headPart.sprite = options[16];
+            eyesClosePart.sprite = eyes[16];
             Manager.manager.currentScore -= pirateHat17Price;
             hat17IsBuy = true;
             shopText17.text = null;
@@ -577,6 +606,7 @@ public class OutfitChanger : MonoBehaviour
         {
             pirateHat17.interactable = true;
             headPart.sprite = options[16];
+            eyesClosePart.sprite = eyes[16];
         }
     }    
 

@@ -4,7 +4,7 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 3431624502859133790
-    second: Grealt_skin_eyes_open
+    second: Head 3 1920x1080_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -94,15 +94,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Grealt_skin_eyes_open
+      name: Head 3 1920x1080_0
       rect:
         serializedVersion: 2
-        x: 823
-        y: 377
-        width: 330
-        height: 401
+        x: 860
+        y: 409
+        width: 281
+        height: 341
       alignment: 9
-      pivot: {x: 0.51523644, y: 0.13638382}
+      pivot: {x: 0.5, y: 0.09090909}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

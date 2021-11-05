@@ -11,8 +11,7 @@ public class HoverImage : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
     public void Start()
     {
         Image.GetComponent<Animator>().Play("Base Layer.HoverOff");
-    }
-
+    }    
     public void OnPointerEnter(PointerEventData eventData)
     {        
         Image.GetComponent<Animator>().Play("Base Layer.HoverOn");
@@ -21,5 +20,5 @@ public class HoverImage : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
     public void OnPointerExit(PointerEventData eventData)
     {
         Image.GetComponent<Animator>().Play("Base Layer.HoverOff");
-    }
+    }    
 }

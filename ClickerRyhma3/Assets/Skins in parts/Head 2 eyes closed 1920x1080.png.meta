@@ -4,7 +4,7 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 4430862945981919425
-    second: Curly_hair_eyes_closed
+    second: Head 2 eyes closed 1920x1080_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -94,15 +94,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Curly_hair_eyes_closed
+      name: Head 2 eyes closed 1920x1080_0
       rect:
         serializedVersion: 2
-        x: 816
-        y: 387
-        width: 390
-        height: 416
+        x: 838
+        y: 398
+        width: 324
+        height: 366
       alignment: 9
-      pivot: {x: 0.46893463, y: 0.11040976}
+      pivot: {x: 0.5123457, y: 0.13661203}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

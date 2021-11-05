@@ -4,7 +4,7 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 1280710910598519007
-    second: Brown_buns_skin_eyes_closed
+    second: Head 1 eyes closed 1920x1080_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -94,15 +94,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Brown_buns_skin_eyes_closed
+      name: Head 1 eyes closed 1920x1080_0
       rect:
         serializedVersion: 2
-        x: 805
-        y: 411
-        width: 376
-        height: 343
+        x: 825
+        y: 423
+        width: 350
+        height: 314
       alignment: 9
-      pivot: {x: 0.4073629, y: 0.077885486}
+      pivot: {x: 0.39714286, y: 0.0955414}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

@@ -4,7 +4,7 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 947068695801943164
-    second: Jack_Sparrow_eyes_open
+    second: Head 11 1920x1080_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -94,15 +94,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Jack_Sparrow_eyes_open
+      name: Head 11 1920x1080_0
       rect:
         serializedVersion: 2
-        x: 824
-        y: 342
-        width: 343
-        height: 484
+        x: 854
+        y: 359
+        width: 293
+        height: 440
       alignment: 9
-      pivot: {x: 0.52443117, y: 0.26453197}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

@@ -4,7 +4,7 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -8769757186878307272
-    second: Commando_hat_skin_eyes_open
+    second: Head 5 1920x1080_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -94,15 +94,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Commando_hat_skin_eyes_open
+      name: Head 5 1920x1080_0
       rect:
         serializedVersion: 2
-        x: 839
-        y: 382
-        width: 329
-        height: 391
+        x: 856
+        y: 402
+        width: 289
+        height: 356
       alignment: 9
-      pivot: {x: 0.4840127, y: 0.08578561}
+      pivot: {x: 0.5, y: 0.08707865}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

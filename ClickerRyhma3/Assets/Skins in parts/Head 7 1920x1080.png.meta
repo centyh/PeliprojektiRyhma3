@@ -4,7 +4,7 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 8377865585969395183
-    second: Rich_guy_skin_eyes_open
+    second: Head 7 1920x1080_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -94,15 +94,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Rich_guy_skin_eyes_open
+      name: Head 7 1920x1080_0
       rect:
         serializedVersion: 2
-        x: 837
-        y: 369
-        width: 308
-        height: 432
+        x: 862
+        y: 383
+        width: 277
+        height: 401
       alignment: 9
-      pivot: {x: 0.52659863, y: 0.061152916}
+      pivot: {x: 0.5, y: 0.07730673}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

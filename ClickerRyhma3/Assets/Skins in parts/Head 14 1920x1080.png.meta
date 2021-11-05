@@ -4,7 +4,7 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 1512941448381960759
-    second: Feather_skin_eyes_open
+    second: Head 14 1920x1080_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -94,15 +94,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Feather_skin_eyes_open
+      name: Head 14 1920x1080_0
       rect:
         serializedVersion: 2
-        x: 792
-        y: 305
-        width: 437
-        height: 496
+        x: 805
+        y: 367
+        width: 390
+        height: 426
       alignment: 9
-      pivot: {x: 0.47315374, y: 0.14858523}
+      pivot: {x: 0.5, y: 0.07042254}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

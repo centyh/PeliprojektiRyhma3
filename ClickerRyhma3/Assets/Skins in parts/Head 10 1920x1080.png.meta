@@ -4,7 +4,7 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 1233978821714190122
-    second: Mustache_skin_eyes_open
+    second: Head 10 1920x1080_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -94,15 +94,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mustache_skin_eyes_open
+      name: Head 10 1920x1080_0
       rect:
         serializedVersion: 2
-        x: 847
-        y: 392
-        width: 320
-        height: 351
+        x: 865
+        y: 425
+        width: 270
+        height: 310
       alignment: 9
-      pivot: {x: 0.46857566, y: 0.141885}
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

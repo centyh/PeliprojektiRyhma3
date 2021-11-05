@@ -4,7 +4,7 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -3416696059917847700
-    second: dark_blue_hat_skin_eyes_open
+    second: Head 4 1920x1080_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -94,15 +94,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dark_blue_hat_skin_eyes_open
+      name: Head 4 1920x1080_0
       rect:
         serializedVersion: 2
-        x: 838
-        y: 416
-        width: 315
-        height: 337
+        x: 860
+        y: 418
+        width: 280
+        height: 323
       alignment: 9
-      pivot: {x: 0.48802882, y: 0.09008591}
+      pivot: {x: 0.5, y: 0.095975235}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
