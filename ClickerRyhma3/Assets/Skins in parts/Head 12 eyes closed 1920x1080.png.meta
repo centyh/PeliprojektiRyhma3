@@ -4,7 +4,7 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 3282273428690795961
-    second: Pirate_hat_skin_eyes_closed
+    second: Head 12 eyes closed 1920x1080_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -94,15 +94,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pirate_hat_skin_eyes_closed
+      name: Head 12 eyes closed 1920x1080_0
       rect:
         serializedVersion: 2
-        x: 751
-        y: 369
-        width: 418
-        height: 408
+        x: 763
+        y: 385
+        width: 388
+        height: 384
       alignment: 9
-      pivot: {x: 0.4882817, y: 0.08074877}
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

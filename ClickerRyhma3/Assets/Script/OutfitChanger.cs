@@ -251,6 +251,10 @@ public class OutfitChanger : MonoBehaviour
     public SpriteRenderer headPart;
     public List<Sprite> options = new List<Sprite>();
 
+    [Header("Eyes")]
+    public SpriteRenderer eyesClosePart;
+    public List<Sprite> eyes = new List<Sprite>();
+
     [Header("Torso")]
     public SpriteRenderer torsoPart;
     public List<Sprite> torsoSprite = new List<Sprite>();
@@ -281,7 +285,8 @@ public class OutfitChanger : MonoBehaviour
     {
         if(Manager.manager.currentScore >= pirateHatPrice && !hatIsBuy)
         {
-            headPart.sprite = options[0];            
+            headPart.sprite = options[0];
+            eyesClosePart.sprite = eyes[0];
             Manager.manager.currentScore -= pirateHatPrice;
             hatIsBuy = true;
             shopText.text = null;
@@ -290,7 +295,8 @@ public class OutfitChanger : MonoBehaviour
         else if(hatIsBuy == true)
         {
             pirateHat.interactable = true;
-            headPart.sprite = options[0];            
+            headPart.sprite = options[0];
+            eyesClosePart.sprite = eyes[0];
         }        
     }
 
@@ -299,6 +305,7 @@ public class OutfitChanger : MonoBehaviour
         if (Manager.manager.currentScore >= pirateHat2Price && !hat2IsBuy)
         {
             headPart.sprite = options[1];
+            eyesClosePart.sprite = eyes[1];
             Manager.manager.currentScore -= pirateHat2Price;
             hat2IsBuy = true;
             shopText2.text = null;
@@ -308,6 +315,7 @@ public class OutfitChanger : MonoBehaviour
         {
             pirateHat2.interactable = true;
             headPart.sprite = options[1];
+            eyesClosePart.sprite = eyes[1];
         }
     }
 
