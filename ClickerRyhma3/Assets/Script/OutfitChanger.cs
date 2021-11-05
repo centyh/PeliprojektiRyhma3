@@ -6,6 +6,12 @@ using UnityEngine.UI;
 
 public class OutfitChanger : MonoBehaviour
 {
+    //Prefabs for pets animations
+    public GameObject bird;
+    public GameObject cat;
+    public GameObject dog;
+    public GameObject monkey;
+
     //Check mark for hats when buyed
     public GameObject check;
     public GameObject check2;
@@ -875,7 +881,11 @@ public class OutfitChanger : MonoBehaviour
     {
         if (Manager.manager.currentScore >= pet30Price && !pet30IsBuy)
         {
-            petPart.sprite = petSprite[0];
+            //petPart.sprite = petSprite[0];
+            bird.SetActive(true);
+            cat.SetActive(false);
+            dog.SetActive(false);
+            monkey.SetActive(false);
             Manager.manager.currentScore -= pet30Price;
             pet30IsBuy = true;
             shopText30.text = null;
@@ -884,7 +894,11 @@ public class OutfitChanger : MonoBehaviour
         else if (pet30IsBuy == true)
         {
             pet30.interactable = true;
-            petPart.sprite = petSprite[0];
+            //petPart.sprite = petSprite[0];            
+            bird.SetActive(true);
+            cat.SetActive(false);
+            dog.SetActive(false);
+            monkey.SetActive(false);
         }        
     }
 
@@ -892,7 +906,11 @@ public class OutfitChanger : MonoBehaviour
     {
         if (Manager.manager.currentScore >= pet31Price && !pet31IsBuy)
         {
-            petPart.sprite = petSprite[1];
+            //petPart.sprite = petSprite[1];     
+            bird.SetActive(false);
+            cat.SetActive(false);
+            dog.SetActive(true);
+            monkey.SetActive(false);
             Manager.manager.currentScore -= pet31Price;
             pet31IsBuy = true;
             shopText31.text = null;
@@ -901,7 +919,11 @@ public class OutfitChanger : MonoBehaviour
         else if (pet31IsBuy == true)
         {
             pet31.interactable = true;
-            petPart.sprite = petSprite[1];
+            //petPart.sprite = petSprite[1];
+            bird.SetActive(false);
+            cat.SetActive(false);
+            dog.SetActive(true);
+            monkey.SetActive(false);
         }
     }     
     
@@ -909,7 +931,12 @@ public class OutfitChanger : MonoBehaviour
     {
         if (Manager.manager.currentScore >= pet32Price && !pet32IsBuy)
         {
-            petPart.sprite = petSprite[2];
+            //petPart.sprite = petSprite[2];
+            cat.SetActive(true);
+            bird.SetActive(false);
+            dog.SetActive(false);
+            monkey.SetActive(false);
+
             Manager.manager.currentScore -= pet32Price;
             pet32IsBuy = true;
             shopText32.text = null;
@@ -918,7 +945,11 @@ public class OutfitChanger : MonoBehaviour
         else if (pet32IsBuy == true)
         {
             pet32.interactable = true;
-            petPart.sprite = petSprite[2];
+            //petPart.sprite = petSprite[2];
+            cat.SetActive(true);
+            bird.SetActive(false);
+            dog.SetActive(false);
+            monkey.SetActive(false);
         }
     }
 
@@ -926,7 +957,11 @@ public class OutfitChanger : MonoBehaviour
     {
         if (Manager.manager.currentScore >= pet33Price && !pet33IsBuy)
         {
-            petPart.sprite = petSprite[3];
+            //petPart.sprite = petSprite[3];
+            bird.SetActive(false);
+            cat.SetActive(false);
+            dog.SetActive(false);
+            monkey.SetActive(true);
             Manager.manager.currentScore -= pet33Price;
             pet33IsBuy = true;
             shopText33.text = null;
@@ -935,7 +970,11 @@ public class OutfitChanger : MonoBehaviour
         else if (pet33IsBuy == true)
         {
             pet33.interactable = true;
-            petPart.sprite = petSprite[3];
+            //petPart.sprite = petSprite[3];
+            bird.SetActive(false);
+            cat.SetActive(false);
+            dog.SetActive(false);
+            monkey.SetActive(true);
         }
     }
 
