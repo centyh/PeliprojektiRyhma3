@@ -12,6 +12,11 @@ public class Boosts : MonoBehaviour
     public GameObject luckyHitText;
     public GameObject autoClickText;
 
+    public ParticleSystem chestParticleEffect;
+    public ParticleSystem diamondParticleEffect;
+    public ParticleSystem diamondBadEffect;
+    public ParticleSystem clickDmgParticleEffect;
+
     public Text coinsText;
     public Text coinsLostText;
 
@@ -56,6 +61,8 @@ public class Boosts : MonoBehaviour
 
             RaycastHit2D hit;
 
+            Vector2 cursorPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             hit = Physics2D.GetRayIntersection(ray);
             if (hit.collider != null)
@@ -66,6 +73,7 @@ public class Boosts : MonoBehaviour
                     dmgBoostActive = true;
                     dmgBoostTimer = 5;
                     DmgBoostActive();
+                    Instantiate(clickDmgParticleEffect, new Vector3(cursorPos.x, cursorPos.y, 0), Quaternion.identity);
                     Destroy(hit.collider.gameObject);
                     clickDmgText.SetActive(true);
                 }
@@ -74,7 +82,9 @@ public class Boosts : MonoBehaviour
                 {
                     Debug.Log("Klikattiin coin boostia");
                     Manager.manager.currentScore += amountCoins;
+                    Instantiate(chestParticleEffect, new Vector3(cursorPos.x, cursorPos.y, 0), Quaternion.identity);
                     Destroy(hit.collider.gameObject);
+                    
                     StartCoroutine(Wait());
                 }
 
@@ -90,6 +100,8 @@ public class Boosts : MonoBehaviour
 
     void RandomizedBoost()
     {
+        Vector2 cursorPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
         amountCoins2 = Random.Range(100, 1000);
 
         float randValue;
@@ -99,17 +111,20 @@ public class Boosts : MonoBehaviour
         {
             Manager.manager.currentScore -= amountCoins;
             Debug.Log("You lost: " + amountCoins);
+            Instantiate(diamondBadEffect, new Vector3(cursorPos.x, cursorPos.y, 0), Quaternion.identity);
             StartCoroutine(Wait3());
         }
         if(randValue == 2)
         {
             StartCoroutine(BoostTime());
             Debug.Log("Lucky Hit Increased");
+            Instantiate(diamondParticleEffect, new Vector3(cursorPos.x, cursorPos.y, 0), Quaternion.identity);
             StartCoroutine(Wait2());
         }
         if(randValue == 3)
         {
             StartCoroutine(BoostTime2());
+            Instantiate(diamondParticleEffect, new Vector3(cursorPos.x, cursorPos.y, 0), Quaternion.identity);
             Debug.Log("Auto Click started");
             StartCoroutine(Wait4());
         }
