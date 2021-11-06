@@ -4,58 +4,58 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -4987903610746435368
-    second: Grey_dress_skin_body
+    second: Body skins 1 osissa 1920x1080_0
   - first:
       213: -1439335533721507284
-    second: Stewie_skin_left_arm
+    second: Body skins 1 osissa 1920x1080_1
   - first:
       213: 6629287983308837543
-    second: Stewie_skin_body
+    second: Body skins 1 osissa 1920x1080_2
   - first:
       213: -6789490462897348842
-    second: Two_swords_and_belt_skin_right_arm
+    second: Body skins 1 osissa 1920x1080_3
   - first:
       213: -2301685590793745206
-    second: Two_swords_and_belt_skin_body
+    second: Body skins 1 osissa 1920x1080_4
   - first:
       213: 2935011659361856686
-    second: Stewie_skin_right_arm
+    second: Body skins 1 osissa 1920x1080_5
   - first:
       213: 5312345501824770237
-    second: Two_swords_and_belt_skin_left_arm
+    second: Body skins 1 osissa 1920x1080_6
   - first:
       213: -5749893952576915990
-    second: Green_shirt_skin_left_arm
+    second: Body skins 1 osissa 1920x1080_7
   - first:
       213: -4084643338856570672
-    second: Green_corset_skin_left_arm
+    second: Body skins 1 osissa 1920x1080_8
   - first:
       213: -7774410527600218666
-    second: Green_corset_skin_right_arm
+    second: Body skins 1 osissa 1920x1080_9
   - first:
       213: -6770638752336392102
-    second: Grey_dress_skin_left_arm
+    second: Body skins 1 osissa 1920x1080_10
   - first:
       213: 6582553329951888640
-    second: Green_shirt_skin_body
+    second: Body skins 1 osissa 1920x1080_11
   - first:
       213: -86187841244887971
-    second: Pirate_Geralt_skin_body
+    second: Body skins 1 osissa 1920x1080_12
   - first:
       213: -4449270978619217723
-    second: Pirate_Geralt_skin_right_arm
+    second: Body skins 1 osissa 1920x1080_13
   - first:
       213: -2146428922555948238
-    second: Grey_dress_skin_right_arm
+    second: Body skins 1 osissa 1920x1080_14
   - first:
       213: -7080500286869977677
-    second: Green_corset_skin_body
+    second: Body skins 1 osissa 1920x1080_15
   - first:
       213: 7217608706495660166
-    second: Green_shirt_skin_right_arm
+    second: Body skins 1 osissa 1920x1080_16
   - first:
       213: -2154087278688244394
-    second: Pirate_Geralt_skin_left_arm
+    second: Body skins 1 osissa 1920x1080_17
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -145,13 +145,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Grey_dress_skin_body
+      name: Body skins 1 osissa 1920x1080_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 680
-        width: 309
-        height: 397
+        x: 7
+        y: 683
+        width: 296
+        height: 389
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,15 +166,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stewie_skin_left_arm
+      name: Body skins 1 osissa 1920x1080_1
       rect:
         serializedVersion: 2
-        x: 424
-        y: 896
-        width: 154
-        height: 141
-      alignment: 9
-      pivot: {x: 0.84765583, y: 0.8176367}
+        x: 430
+        y: 903
+        width: 138
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -187,13 +187,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stewie_skin_body
+      name: Body skins 1 osissa 1920x1080_2
       rect:
         serializedVersion: 2
-        x: 758
-        y: 698
-        width: 280
-        height: 379
+        x: 767
+        y: 709
+        width: 264
+        height: 366
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,15 +208,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Two_swords_and_belt_skin_right_arm
+      name: Body skins 1 osissa 1920x1080_3
       rect:
         serializedVersion: 2
-        x: 1254
-        y: 912
-        width: 141
-        height: 129
+        x: 1256
+        y: 914
+        width: 138
+        height: 125
       alignment: 9
-      pivot: {x: 0.14684439, y: 0.8564658}
+      pivot: {x: 0.2, y: 0.8}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -229,13 +229,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Two_swords_and_belt_skin_body
+      name: Body skins 1 osissa 1920x1080_4
       rect:
         serializedVersion: 2
-        x: 1551
-        y: 683
-        width: 357
-        height: 394
+        x: 1559
+        y: 689
+        width: 352
+        height: 384
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,15 +250,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stewie_skin_right_arm
+      name: Body skins 1 osissa 1920x1080_5
       rect:
         serializedVersion: 2
-        x: 469
-        y: 745
-        width: 162
-        height: 132
-      alignment: 9
-      pivot: {x: 0.17632061, y: 0.8176367}
+        x: 480
+        y: 747
+        width: 138
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -271,15 +271,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Two_swords_and_belt_skin_left_arm
+      name: Body skins 1 osissa 1920x1080_6
       rect:
         serializedVersion: 2
-        x: 1240
-        y: 680
-        width: 151
-        height: 135
+        x: 1250
+        y: 687
+        width: 138
+        height: 125
       alignment: 9
-      pivot: {x: 0.87333703, y: 0.8453262}
+      pivot: {x: 0.8, y: 0.8}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -292,15 +292,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green_shirt_skin_left_arm
+      name: Body skins 1 osissa 1920x1080_7
       rect:
         serializedVersion: 2
-        x: 391
-        y: 409
-        width: 144
-        height: 139
-      alignment: 9
-      pivot: {x: 0.8356675, y: 0.8573413}
+        x: 396
+        y: 421
+        width: 138
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -313,15 +313,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green_corset_skin_left_arm
+      name: Body skins 1 osissa 1920x1080_8
       rect:
         serializedVersion: 2
-        x: 784
-        y: 465
-        width: 166
-        height: 143
-      alignment: 9
-      pivot: {x: 0.88462037, y: 0.89886093}
+        x: 792
+        y: 468
+        width: 142
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -334,15 +334,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green_corset_skin_right_arm
+      name: Body skins 1 osissa 1920x1080_9
       rect:
         serializedVersion: 2
-        x: 1040
-        y: 483
-        width: 148
-        height: 140
-      alignment: 9
-      pivot: {x: 0.12351216, y: 0.88882715}
+        x: 1044
+        y: 490
+        width: 138
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -355,15 +355,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Grey_dress_skin_left_arm
+      name: Body skins 1 osissa 1920x1080_10
       rect:
         serializedVersion: 2
-        x: 1503
-        y: 475
-        width: 143
-        height: 130
+        x: 1507
+        y: 478
+        width: 138
+        height: 125
       alignment: 9
-      pivot: {x: 0.9036927, y: 0.88473094}
+      pivot: {x: 0.8, y: 0.8}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -376,13 +376,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green_shirt_skin_body
+      name: Body skins 1 osissa 1920x1080_11
       rect:
         serializedVersion: 2
-        x: 12
-        y: 5
-        width: 274
-        height: 377
+        x: 14
+        y: 8
+        width: 267
+        height: 372
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -397,13 +397,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pirate_Geralt_skin_body
+      name: Body skins 1 osissa 1920x1080_12
       rect:
         serializedVersion: 2
-        x: 645
-        y: 3
-        width: 351
-        height: 437
+        x: 655
+        y: 10
+        width: 336
+        height: 422
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -418,15 +418,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pirate_Geralt_skin_right_arm
+      name: Body skins 1 osissa 1920x1080_13
       rect:
         serializedVersion: 2
-        x: 1193
-        y: 267
-        width: 155
-        height: 145
-      alignment: 9
-      pivot: {x: 0.095410325, y: 0.8958188}
+        x: 1196
+        y: 276
+        width: 143
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -439,7 +439,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Grey_dress_skin_right_arm
+      name: Body skins 1 osissa 1920x1080_14
       rect:
         serializedVersion: 2
         x: 1430
@@ -447,7 +447,7 @@ TextureImporter:
         width: 138
         height: 125
       alignment: 9
-      pivot: {x: 0.12045686, y: 0.87330323}
+      pivot: {x: 0.2, y: 0.8}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -460,15 +460,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green_corset_skin_body
+      name: Body skins 1 osissa 1920x1080_15
       rect:
         serializedVersion: 2
-        x: 1582
-        y: 9
-        width: 322
-        height: 387
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1588
+        y: 13
+        width: 306
+        height: 367
+      alignment: 9
+      pivot: {x: 0.5728758, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -481,15 +481,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green_shirt_skin_right_arm
+      name: Body skins 1 osissa 1920x1080_16
       rect:
         serializedVersion: 2
-        x: 388
-        y: 147
-        width: 151
-        height: 136
-      alignment: 9
-      pivot: {x: 0.1809446, y: 0.7996086}
+        x: 393
+        y: 149
+        width: 140
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -502,15 +502,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pirate_Geralt_skin_left_arm
+      name: Body skins 1 osissa 1920x1080_17
       rect:
         serializedVersion: 2
-        x: 1193
-        y: 31
-        width: 146
-        height: 132
-      alignment: 9
-      pivot: {x: 0.90342736, y: 0.911526}
+        x: 1198
+        y: 34
+        width: 138
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

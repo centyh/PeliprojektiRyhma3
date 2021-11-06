@@ -4,19 +4,19 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -7668875876404421795
-    second: Main_character_head_eyes_open
+    second: Main character beginning osissa 1920x1080_0
   - first:
       213: -4670417743446036400
-    second: Main_character_left_arm
+    second: Main character beginning osissa 1920x1080_1
   - first:
       213: -6600394429796490625
-    second: Main_character_right_arm
+    second: Main character beginning osissa 1920x1080_2
   - first:
       213: 3529409428839135602
-    second: Main_character_eyes_closed
+    second: Main character beginning osissa 1920x1080_3
   - first:
       213: -761787667037792709
-    second: Main_character_body
+    second: Main character beginning osissa 1920x1080_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -106,15 +106,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Main_character_head_eyes_open
+      name: Main character beginning osissa 1920x1080_0
       rect:
         serializedVersion: 2
-        x: 242
+        x: 240
         y: 574
         width: 270
         height: 310
       alignment: 9
-      pivot: {x: 0.48758534, y: 0.08370873}
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -127,15 +127,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Main_character_left_arm
+      name: Main character beginning osissa 1920x1080_1
       rect:
         serializedVersion: 2
-        x: 838
-        y: 728
-        width: 161
-        height: 146
+        x: 843
+        y: 734
+        width: 151
+        height: 135
       alignment: 9
-      pivot: {x: 0.8780627, y: 0.8513514}
+      pivot: {x: 0.85, y: 0.85}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -148,7 +148,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Main_character_right_arm
+      name: Main character beginning osissa 1920x1080_2
       rect:
         serializedVersion: 2
         x: 1247
@@ -156,7 +156,7 @@ TextureImporter:
         width: 138
         height: 125
       alignment: 9
-      pivot: {x: 0.17209172, y: 0.8351958}
+      pivot: {x: 0.15, y: 0.85}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -169,7 +169,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Main_character_eyes_closed
+      name: Main character beginning osissa 1920x1080_3
       rect:
         serializedVersion: 2
         x: 242
@@ -177,7 +177,7 @@ TextureImporter:
         width: 270
         height: 310
       alignment: 9
-      pivot: {x: 0.5, y: 0.08911497}
+      pivot: {x: 0.5148148, y: 0.09677419}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -190,13 +190,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Main_character_body
+      name: Main character beginning osissa 1920x1080_4
       rect:
         serializedVersion: 2
-        x: 1386
-        y: 93
-        width: 289
-        height: 413
+        x: 1401
+        y: 105
+        width: 263
+        height: 372
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -4,58 +4,58 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -4362124254294204756
-    second: Gold_chain_skin_body
+    second: Body skins 2 osissa 1920x1080_0
   - first:
       213: 1061396773870185831
-    second: Gold_chain_skin_right_arm
+    second: Body skins 2 osissa 1920x1080_1
   - first:
       213: -4692561473496225018
-    second: Purple_tanktop_skin_body
+    second: Body skins 2 osissa 1920x1080_2
   - first:
       213: 4522135277626720688
-    second: Jack_Sparrow_skin_left_arm
+    second: Body skins 2 osissa 1920x1080_3
   - first:
       213: -4153190832022311946
-    second: Jack_Sparrow_skin_body
+    second: Body skins 2 osissa 1920x1080_4
   - first:
       213: -6850938086054305274
-    second: Gold_chain_skin_left_arm
+    second: Body skins 2 osissa 1920x1080_5
   - first:
       213: 6450857998909076104
-    second: Purple_tanktop_skin_left_arm
+    second: Body skins 2 osissa 1920x1080_6
   - first:
       213: -3626116496061904731
-    second: Jack_Sparrow_skin_right_arm
+    second: Body skins 2 osissa 1920x1080_7
   - first:
       213: -4401755529726602172
-    second: Black_suit_skin_left_arm
+    second: Body skins 2 osissa 1920x1080_8
   - first:
       213: 3616331066326078273
-    second: Black_suit_skin_right_arm
+    second: Body skins 2 osissa 1920x1080_9
   - first:
       213: 2044680084258020020
-    second: Purple_tanktop_skin_right_arm
+    second: Body skins 2 osissa 1920x1080_10
   - first:
       213: -1619271840886362200
-    second: Black_suit_skin_body
+    second: Body skins 2 osissa 1920x1080_11
   - first:
       213: -7220591608942413607
-    second: Light_pink_skirt_skin_body
+    second: Body skins 2 osissa 1920x1080_12
   - first:
       213: -4658574272025048507
-    second: Light_pink_skirt_skin_left_arm
+    second: Body skins 2 osissa 1920x1080_13
   - first:
       213: -6933008263945907949
-    second: Brown_vest_skin_left_arm
+    second: Body skins 2 osissa 1920x1080_14
   - first:
       213: -2548001762843344692
-    second: Brown_vest_skin_body
+    second: Body skins 2 osissa 1920x1080_15
   - first:
       213: -3767863963699593055
-    second: Light_pink_skirt_skin_right_arm
+    second: Body skins 2 osissa 1920x1080_16
   - first:
       213: -5787839844558242347
-    second: Brown_vest_skin_right_arm
+    second: Body skins 2 osissa 1920x1080_17
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -145,15 +145,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Gold_chain_skin_body
+      name: Body skins 2 osissa 1920x1080_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 674
-        width: 312
-        height: 389
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 20
+        y: 682
+        width: 295
+        height: 375
+      alignment: 9
+      pivot: {x: 0.4338983, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -166,15 +166,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gold_chain_skin_right_arm
+      name: Body skins 2 osissa 1920x1080_1
       rect:
         serializedVersion: 2
-        x: 414
-        y: 940
-        width: 154
-        height: 140
+        x: 419
+        y: 946
+        width: 140
+        height: 127
       alignment: 9
-      pivot: {x: 0.1316232, y: 0.8322504}
+      pivot: {x: 0.2, y: 0.8}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -187,13 +187,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Purple_tanktop_skin_body
+      name: Body skins 2 osissa 1920x1080_2
       rect:
         serializedVersion: 2
-        x: 690
-        y: 673
-        width: 294
-        height: 406
+        x: 705
+        y: 707
+        width: 270
+        height: 368
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,15 +208,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jack_Sparrow_skin_left_arm
+      name: Body skins 2 osissa 1920x1080_3
       rect:
         serializedVersion: 2
-        x: 1326
-        y: 906
-        width: 148
-        height: 139
-      alignment: 9
-      pivot: {x: 0.87371296, y: 0.85006833}
+        x: 1333
+        y: 912
+        width: 138
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -229,13 +229,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jack_Sparrow_skin_body
+      name: Body skins 2 osissa 1920x1080_4
       rect:
         serializedVersion: 2
-        x: 1548
-        y: 650
-        width: 366
-        height: 418
+        x: 1551
+        y: 688
+        width: 347
+        height: 378
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,15 +250,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gold_chain_skin_left_arm
+      name: Body skins 2 osissa 1920x1080_5
       rect:
         serializedVersion: 2
-        x: 405
-        y: 738
-        width: 163
-        height: 150
+        x: 417
+        y: 751
+        width: 146
+        height: 132
       alignment: 9
-      pivot: {x: 0.8532372, y: 0.84334403}
+      pivot: {x: 0.8, y: 0.8}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -271,15 +271,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Purple_tanktop_skin_left_arm
+      name: Body skins 2 osissa 1920x1080_6
       rect:
         serializedVersion: 2
-        x: 1049
-        y: 670
-        width: 154
-        height: 139
+        x: 1061
+        y: 678
+        width: 138
+        height: 125
       alignment: 9
-      pivot: {x: 0.885039, y: 0.83756644}
+      pivot: {x: 0.8, y: 0.8}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -292,15 +292,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jack_Sparrow_skin_right_arm
+      name: Body skins 2 osissa 1920x1080_7
       rect:
         serializedVersion: 2
-        x: 1317
-        y: 702
-        width: 156
-        height: 140
-      alignment: 9
-      pivot: {x: 0.17213707, y: 0.84862626}
+        x: 1323
+        y: 708
+        width: 143
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -313,15 +313,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Black_suit_skin_left_arm
+      name: Body skins 2 osissa 1920x1080_8
       rect:
         serializedVersion: 2
-        x: 293
-        y: 471
-        width: 151
-        height: 136
+        x: 296
+        y: 476
+        width: 141
+        height: 129
       alignment: 9
-      pivot: {x: 0.85467964, y: 0.86344355}
+      pivot: {x: 0.8, y: 0.8}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -334,15 +334,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Black_suit_skin_right_arm
+      name: Body skins 2 osissa 1920x1080_9
       rect:
         serializedVersion: 2
-        x: 529
-        y: 476
-        width: 148
-        height: 135
+        x: 532
+        y: 479
+        width: 143
+        height: 130
       alignment: 9
-      pivot: {x: 0.111397, y: 0.8775169}
+      pivot: {x: 0.2, y: 0.8}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -355,15 +355,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Purple_tanktop_skin_right_arm
+      name: Body skins 2 osissa 1920x1080_10
       rect:
         serializedVersion: 2
-        x: 1059
-        y: 479
-        width: 150
-        height: 138
+        x: 1066
+        y: 486
+        width: 138
+        height: 125
       alignment: 9
-      pivot: {x: 0.1715822, y: 0.82506394}
+      pivot: {x: 0.2, y: 0.8}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -376,13 +376,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Black_suit_skin_body
+      name: Body skins 2 osissa 1920x1080_11
       rect:
         serializedVersion: 2
-        x: 2
-        y: 4
-        width: 293
-        height: 362
+        x: 15
+        y: 11
+        width: 268
+        height: 355
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -397,15 +397,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Light_pink_skirt_skin_body
+      name: Body skins 2 osissa 1920x1080_12
       rect:
         serializedVersion: 2
-        x: 481
-        y: 21
-        width: 346
-        height: 359
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 490
+        y: 27
+        width: 330
+        height: 347
+      alignment: 9
+      pivot: {x: 0.5151515, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -418,15 +418,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Light_pink_skirt_skin_left_arm
+      name: Body skins 2 osissa 1920x1080_13
       rect:
         serializedVersion: 2
-        x: 891
-        y: 237
-        width: 154
-        height: 139
+        x: 897
+        y: 243
+        width: 144
+        height: 132
       alignment: 9
-      pivot: {x: 0.84729004, y: 0.8670231}
+      pivot: {x: 0.8, y: 0.8}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -439,15 +439,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Brown_vest_skin_left_arm
+      name: Body skins 2 osissa 1920x1080_14
       rect:
         serializedVersion: 2
-        x: 1395
-        y: 236
-        width: 144
-        height: 136
-      alignment: 9
-      pivot: {x: 0.8510645, y: 0.8375667}
+        x: 1399
+        y: 241
+        width: 138
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -460,13 +460,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Brown_vest_skin_body
+      name: Body skins 2 osissa 1920x1080_15
       rect:
         serializedVersion: 2
-        x: 1635
-        y: 0
-        width: 275
-        height: 391
+        x: 1643
+        y: 7
+        width: 263
+        height: 375
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,15 +481,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Light_pink_skirt_skin_right_arm
+      name: Body skins 2 osissa 1920x1080_16
       rect:
         serializedVersion: 2
-        x: 928
-        y: 51
-        width: 146
-        height: 139
+        x: 931
+        y: 56
+        width: 140
+        height: 128
       alignment: 9
-      pivot: {x: 0.16511144, y: 0.8418642}
+      pivot: {x: 0.2, y: 0.8}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -502,15 +502,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Brown_vest_skin_right_arm
+      name: Body skins 2 osissa 1920x1080_17
       rect:
         serializedVersion: 2
-        x: 1392
-        y: 40
-        width: 154
-        height: 131
-      alignment: 9
-      pivot: {x: 0.18290733, y: 0.8375667}
+        x: 1399
+        y: 42
+        width: 138
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
