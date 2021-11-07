@@ -6,6 +6,10 @@ using UnityEngine.UI;
 
 public class Boosts : MonoBehaviour
 {
+    [SerializeField] private AudioSource diamondSound;
+    [SerializeField] private AudioSource scrollSound;
+    [SerializeField] private AudioSource chestSound;
+
     public GameObject clickDmgText;
     public GameObject coinText;
     public GameObject coinsLost;
@@ -74,6 +78,7 @@ public class Boosts : MonoBehaviour
                     dmgBoostTimer = 5;
                     DmgBoostActive();
                     Instantiate(clickDmgParticleEffect, new Vector3(cursorPos.x, cursorPos.y, 0), Quaternion.identity);
+                    scrollSound.Play();
                     Destroy(hit.collider.gameObject);
                     clickDmgText.SetActive(true);
                 }
@@ -83,6 +88,7 @@ public class Boosts : MonoBehaviour
                     Debug.Log("Klikattiin coin boostia");
                     Manager.manager.currentScore += amountCoins;
                     Instantiate(chestParticleEffect, new Vector3(cursorPos.x, cursorPos.y, 0), Quaternion.identity);
+                    chestSound.Play();
                     Destroy(hit.collider.gameObject);
                     
                     StartCoroutine(Wait());
@@ -91,6 +97,7 @@ public class Boosts : MonoBehaviour
                 if (hit.collider.CompareTag("RandomizedBoost"))
                 {
                     RandomizedBoost();
+                    diamondSound.Play();
                     Destroy(hit.collider.gameObject);
                     
                 }

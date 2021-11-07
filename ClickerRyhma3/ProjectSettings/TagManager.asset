@@ -8,6 +8,7 @@ TagManager:
   - ClickDmgBoost
   - AbilityButton
   - RandomizedBoost
+  - FxTemporaire
   layers:
   - Default
   - TransparentFX
@@ -17,7 +18,7 @@ TagManager:
   - UI
   - Boosts
   - InfoScreen
-  - 
+  - ParticleEffects
   - 
   - 
   - 

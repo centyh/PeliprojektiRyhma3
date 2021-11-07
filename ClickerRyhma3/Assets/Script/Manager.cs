@@ -89,6 +89,15 @@ public class Manager : MonoBehaviour
     public Button clickTowerButton;
     public Button afkLabButton;
 
+    //LEVELS
+    public Text clickDmgLevel;
+    public Text autoClickLevel;
+    public Text luckyHitLevel;
+
+    private int cDmgLevel = 0;
+    private int autoCLevel = 0;
+    private int lHitLevel = 0;
+
     private void Awake()
     {
         if (manager == null)
@@ -162,6 +171,12 @@ public class Manager : MonoBehaviour
 
         afkLabCost.text = "Cost: " + afkLabPrice;
 
+        clickDmgLevel.text = "level: " + cDmgLevel;
+
+        autoClickLevel.text = "level: " + autoCLevel;
+
+        luckyHitLevel.text = "level: " + lHitLevel;
+
         if(currentScore > 1000)
         {
             scoreText.text = (currentScore / 1000).ToString("F1") + "k";
@@ -204,6 +219,7 @@ public class Manager : MonoBehaviour
             currentScore -= luckyHitPrice;
             luckyHitPrice = luckyHitPrice * 2;
             Debug.Log("lucky hit chance" + target);
+            lHitLevel++;
         }
     }
 
@@ -215,6 +231,7 @@ public class Manager : MonoBehaviour
             currentScore -= autoClickPrice;
             x += 1;
             autoClickPrice += 75;
+            autoCLevel++;
         }
     }
 
@@ -226,6 +243,7 @@ public class Manager : MonoBehaviour
             currentScore -= clickDmgPrice;
             hitPower += 1;
             clickDmgPrice += 25;
+            cDmgLevel++;
         }
 
         
