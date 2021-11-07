@@ -1943,6 +1943,18 @@ MonoBehaviour:
           m_StringArgument: BackgroundAnim
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 66227364}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: PlayOneShot
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 15ea6ed45d3434e4591658be3f9991b1, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &110644969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7215,9 +7227,6 @@ MonoBehaviour:
   clickDmgLevel: {fileID: 1478989005}
   autoClickLevel: {fileID: 364829419}
   luckyHitLevel: {fileID: 1558536289}
-  cDmgLevel: 0
-  autoCLevel: 0
-  lHitLevel: 0
 --- !u!4 &585483090
 Transform:
   m_ObjectHideFlags: 0
@@ -21664,6 +21673,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: BackgroundAnim
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 963558821}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: PlayOneShot
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 6c4a0b92febed964c814e669d4518294, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1628445686
