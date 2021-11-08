@@ -1,34 +1,25 @@
 fileFormatVersion: 2
-guid: 823d39c05ca5f7543864ef36ab7e4d35
+guid: ab2c59e163805b840875f2de077597ba
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8408037397919799564
-    second: Valikko_Grafiikoita_Export_3 1_0
+      213: -6523480683932555194
+    second: Pilvet_0
   - first:
-      213: 3061592613666235178
-    second: Valikko_Grafiikoita_Export_3 1_1
+      213: 6229991029038703024
+    second: Pilvet_1
   - first:
-      213: -3403049618515625619
-    second: Valikko_Grafiikoita_Export_3 1_2
+      213: -8549059003656125418
+    second: Pilvet_2
   - first:
-      213: 532353557896472972
-    second: Valikko_Grafiikoita_Export_3 1_3
+      213: 992082020333673808
+    second: Pilvet_4
   - first:
-      213: -6970436404539836677
-    second: Valikko_Grafiikoita_Export_3 1_4
+      213: 167539852821991942
+    second: Pilvet_5
   - first:
-      213: -5832717387887788492
-    second: Valikko_Grafiikoita_Export_3 1_5
-  - first:
-      213: -7602183522909998678
-    second: Valikko_Grafiikoita_Export_3 1_6
-  - first:
-      213: 1974031082687542213
-    second: Valikko_Grafiikoita_Export_3 1_7
-  - first:
-      213: -7889452770584215817
-    second: Valikko_Grafiikoita_Export_3 1_8
+      213: 4870588821817620079
+    second: Pilvet_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -118,190 +109,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Valikko_Grafiikoita_Export_3 1_0
+      name: Pilvet_0
       rect:
         serializedVersion: 2
-        x: 598
-        y: 815
-        width: 119
-        height: 74
+        x: 62
+        y: 865
+        width: 360
+        height: 177
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f66ac6c886a05b80800000000000000
-      internalID: -8408037397919799564
+      spriteID: 648e31f71e0f775a0800000000000000
+      internalID: -6523480683932555194
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Valikko_Grafiikoita_Export_3 1_1
+      name: Pilvet_1
       rect:
         serializedVersion: 2
-        x: 116
-        y: 159
-        width: 924
-        height: 867
+        x: 558
+        y: 927
+        width: 210
+        height: 42
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a232988d246fc7a20800000000000000
-      internalID: 3061592613666235178
+      spriteID: 0b1e8bf35df557650800000000000000
+      internalID: 6229991029038703024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Valikko_Grafiikoita_Export_3 1_2
+      name: Pilvet_2
       rect:
         serializedVersion: 2
-        x: 42
-        y: 821
-        width: 133
-        height: 96
+        x: 960
+        y: 905
+        width: 295
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d69f85fe660f5c0d0800000000000000
-      internalID: -3403049618515625619
+      spriteID: 614c83b8124ab5980800000000000000
+      internalID: -8549059003656125418
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Valikko_Grafiikoita_Export_3 1_3
+      name: Pilvet_4
       rect:
         serializedVersion: 2
-        x: 45
-        y: 849
-        width: 30
-        height: 13
+        x: 89
+        y: 660
+        width: 240
+        height: 77
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c89a5598dbc436700800000000000000
-      internalID: 532353557896472972
+      spriteID: 05d5a0a575594cd00800000000000000
+      internalID: 992082020333673808
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Valikko_Grafiikoita_Export_3 1_4
+      name: Pilvet_5
       rect:
         serializedVersion: 2
-        x: 74
-        y: 835
-        width: 71
-        height: 82
+        x: 510
+        y: 660
+        width: 258
+        height: 125
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf6b3f16509044f90800000000000000
-      internalID: -6970436404539836677
+      spriteID: 6021d25cb98335200800000000000000
+      internalID: 167539852821991942
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Valikko_Grafiikoita_Export_3 1_5
+      name: Pilvet_7
       rect:
         serializedVersion: 2
-        x: 68
-        y: 831
-        width: 28
-        height: 16
+        x: 932
+        y: 693
+        width: 272
+        height: 44
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43e34b350760e0fa0800000000000000
-      internalID: -5832717387887788492
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Valikko_Grafiikoita_Export_3 1_6
-      rect:
-        serializedVersion: 2
-        x: 106
-        y: 830
-        width: 21
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aa13f9f2d5e9f7690800000000000000
-      internalID: -7602183522909998678
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Valikko_Grafiikoita_Export_3 1_7
-      rect:
-        serializedVersion: 2
-        x: 136
-        y: 827
-        width: 34
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5c3bb239fca256b10800000000000000
-      internalID: 1974031082687542213
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Valikko_Grafiikoita_Export_3 1_8
-      rect:
-        serializedVersion: 2
-        x: 142
-        y: 824
-        width: 13
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7fe3b195188038290800000000000000
-      internalID: -7889452770584215817
+      spriteID: f667d6b5abec79340800000000000000
+      internalID: 4870588821817620079
       vertices: []
       indices: 
       edges: []
