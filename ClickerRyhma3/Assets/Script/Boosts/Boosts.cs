@@ -35,7 +35,7 @@ public class Boosts : MonoBehaviour
     public bool dmgBoostActive = false;
     public float addedBoostAmount;
 
-    private void Start()
+    void Start()
     {
 
     }

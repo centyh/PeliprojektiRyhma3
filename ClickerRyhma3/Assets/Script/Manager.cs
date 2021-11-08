@@ -12,10 +12,12 @@ public class Manager : MonoBehaviour
 
     [SerializeField] GameObject coinPrefab;
 
-    bool isBought = false;
+    bool abilBought = false;
+    bool castleBought = false;
 
     //BOUGHT MARKERS
     public GameObject abilityBought;
+    public GameObject castleBoughtMarker;
 
     //LUCKY HIT 
     public float target = 0.05f;
@@ -93,10 +95,29 @@ public class Manager : MonoBehaviour
     public Text clickDmgLevel;
     public Text autoClickLevel;
     public Text luckyHitLevel;
+    public Text abilityLevel;
+    public Text moreClickLevel;
+    public Text factoryLevel;
+    public Text castleLevel;
+    public Text farmLevel;
+    public Text mineLevel;
+    public Text towerLevel;
+    public Text labLevel;
 
     private int cDmgLevel = 0;
     private int autoCLevel = 0;
     private int lHitLevel = 0;
+    private int abilityLevel1 = 0;
+    private int moreClickDmgLevel = 0;
+    private int factoryLevel1 = 0;
+    private int castleLevel1 = 0;
+    private int farmLevel1 = 0;
+    private int mineLevel1 = 0;
+    private int towerLevel1 = 0;
+    private int labLevel1 = 0;
+
+    public int abilityMaxLevel = 1;
+    public int castleMaxLevel = 1;
 
     private void Awake()
     {
@@ -177,7 +198,23 @@ public class Manager : MonoBehaviour
 
         luckyHitLevel.text = "level: " + lHitLevel;
 
-        if(currentScore > 1000)
+        moreClickLevel.text = "level: " + moreClickDmgLevel;
+
+        abilityLevel.text = "level: " + abilityLevel1;
+
+        factoryLevel.text = "level: " + factoryLevel1;
+
+        farmLevel.text = "level: " + farmLevel1;
+
+        mineLevel.text = "level: " + mineLevel1;
+
+        towerLevel.text = "level: " + towerLevel1;
+
+        castleLevel.text = "level: " + castleLevel1;
+
+        labLevel.text = "level: " + labLevel1;
+
+        if (currentScore > 1000)
         {
             scoreText.text = (currentScore / 1000).ToString("F1") + "k";
         }
@@ -253,6 +290,7 @@ public class Manager : MonoBehaviour
     {
         if(currentScore >= moreClickDmgPrice)
         {
+            moreClickDmgLevel++;
             clickDmgStat += 3;
             hitPower += 3;
             currentScore -= moreClickDmgPrice;
@@ -279,36 +317,44 @@ public class Manager : MonoBehaviour
 
     public void AbilityButton()
     {
-        
-
-        if(!isBought && currentScore >= abilityButtonPrice)
+        if(!abilBought && currentScore >= abilityButtonPrice)
         {
+            abilityLevel1++;
             clickDmgStat += 5;
             autoClickStat += 5;
             hitPower += 5;
             x += 5;
             currentScore -= abilityButtonPrice;
             abilityButton.SetActive(true);
-            isBought = true;
+            abilBought = true;
             abilityBought.SetActive(true);
         }
-        if(isBought)
+        if(abilBought)
         {
             abilityUpgradeButton.interactable = false;
+        }
+        if (abilityLevel1 == 1)
+        {
+            abilityLevel.text = "level: " + " MAX";
         }
     }
 
     public void ClickCastleUpgrade()
     {
-        if(currentScore >= clickCastlePrice)
+        if(!castleBought && currentScore >= clickCastlePrice)
         {
+            castleLevel1++;
             clickDmgStat += 15;
             autoClickStat += 15;
             hitPower += 15;
             x += 15;
-            currentScore -= clickCastlePrice;
-            clickCastlePrice += 10000;
             abilityButton2.SetActive(true);
+            castleBought = true;
+            castleBoughtMarker.SetActive(true);
+        }
+        if (castleBought)
+        {
+            clickCastleButton.interactable = false;
         }
     }
 
@@ -316,6 +362,7 @@ public class Manager : MonoBehaviour
     {
         if(currentScore >= clickFarmPrice)
         {
+            farmLevel1++;
             clickDmgStat += 20;
             autoClickStat += 20;
             hitPower += 20;
@@ -329,6 +376,7 @@ public class Manager : MonoBehaviour
     {
         if(currentScore >= clickMinePrice)
         {
+            mineLevel1++;
             clickDmgStat += 30;
             autoClickStat += 30;
             hitPower += 30;
@@ -342,6 +390,7 @@ public class Manager : MonoBehaviour
     {
         if(currentScore >= clickTowerPrice)
         {
+            towerLevel1++;
             clickDmgStat += 50;
             autoClickStat += 50;
             hitPower += 50;
@@ -355,6 +404,7 @@ public class Manager : MonoBehaviour
     {
         if(currentScore >= afkLabPrice)
         {
+            labLevel1++;
             autoClickStat += 100;
             x += 100;
             currentScore -= afkLabPrice;
@@ -422,20 +472,20 @@ public class Manager : MonoBehaviour
             luckyHitButton.interactable = false;
         }
         //Ability Button
-        if (!isBought && currentScore >= abilityButtonPrice)
+        if (!abilBought && currentScore >= abilityButtonPrice)
         {
             abilityUpgradeButton.interactable = true;
         }
-        if(isBought)
+        if(abilBought)
         {
             abilityUpgradeButton.interactable = false;
         }
         //Click Castle
-        if(currentScore >= clickCastlePrice)
+        if(!castleBought && currentScore >= clickCastlePrice)
         {
             clickCastleButton.interactable = true;
         }
-        else
+        if(castleBought)
         {
             clickCastleButton.interactable = false;
         }
