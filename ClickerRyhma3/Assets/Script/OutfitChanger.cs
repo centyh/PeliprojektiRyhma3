@@ -969,31 +969,6 @@ public class OutfitChanger : MonoBehaviour
 
     public void Pet30()
     {
-        if (Manager.manager.currentScore >= pet30Price && !pet30IsBuy)
-        {
-            //petPart.sprite = petSprite[0];
-            bird.SetActive(true);
-            cat.SetActive(false);
-            dog.SetActive(false);
-            monkey.SetActive(false);
-            Manager.manager.currentScore -= pet30Price;
-            pet30IsBuy = true;
-            shopText30.text = null;
-            check30.SetActive(true);
-        }
-        else if (pet30IsBuy == true)
-        {
-            pet30.interactable = true;
-            //petPart.sprite = petSprite[0];            
-            bird.SetActive(true);
-            cat.SetActive(false);
-            dog.SetActive(false);
-            monkey.SetActive(false);
-        }        
-    }
-
-    public void Pet31()
-    {
         if (Manager.manager.currentScore >= pet31Price && !pet31IsBuy)
         {
             //petPart.sprite = petSprite[1];     
@@ -1014,10 +989,10 @@ public class OutfitChanger : MonoBehaviour
             cat.SetActive(false);
             dog.SetActive(true);
             monkey.SetActive(false);
-        }
-    }     
-    
-    public void Pet32()
+        }        
+    }
+
+    public void Pet31()
     {
         if (Manager.manager.currentScore >= pet32Price && !pet32IsBuy)
         {
@@ -1038,6 +1013,31 @@ public class OutfitChanger : MonoBehaviour
             //petPart.sprite = petSprite[2];
             cat.SetActive(true);
             bird.SetActive(false);
+            dog.SetActive(false);
+            monkey.SetActive(false);
+        }        
+    }     
+    
+    public void Pet32()
+    {
+        if (Manager.manager.currentScore >= pet30Price && !pet30IsBuy)
+        {
+            //petPart.sprite = petSprite[0];
+            bird.SetActive(true);
+            cat.SetActive(false);
+            dog.SetActive(false);
+            monkey.SetActive(false);
+            Manager.manager.currentScore -= pet30Price;
+            pet30IsBuy = true;
+            shopText30.text = null;
+            check30.SetActive(true);
+        }
+        else if (pet30IsBuy == true)
+        {
+            pet30.interactable = true;
+            //petPart.sprite = petSprite[0];            
+            bird.SetActive(true);
+            cat.SetActive(false);
             dog.SetActive(false);
             monkey.SetActive(false);
         }
