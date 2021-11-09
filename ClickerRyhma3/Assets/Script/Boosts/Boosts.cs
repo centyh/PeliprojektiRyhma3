@@ -90,8 +90,9 @@ public class Boosts : MonoBehaviour
                     Instantiate(chestParticleEffect, new Vector3(cursorPos.x, cursorPos.y, 0), Quaternion.identity);
                     chestSound.Play();
                     Destroy(hit.collider.gameObject);
-                    
+
                     StartCoroutine(Wait());
+
                 }
 
                 if (hit.collider.CompareTag("RandomizedBoost"))
