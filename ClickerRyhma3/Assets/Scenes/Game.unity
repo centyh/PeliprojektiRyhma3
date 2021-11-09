@@ -7519,7 +7519,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d3d84873e719a7488c67674f999b85d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  masterVolume: 0.5
+  masterVolume: 1
 --- !u!114 &145755202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29747,7 +29747,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d3d84873e719a7488c67674f999b85d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  masterVolume: 0.5
+  masterVolume: 1
 --- !u!114 &726728653
 MonoBehaviour:
   m_ObjectHideFlags: 0
