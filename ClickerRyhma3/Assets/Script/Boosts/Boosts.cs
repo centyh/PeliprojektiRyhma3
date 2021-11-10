@@ -61,8 +61,6 @@ public class Boosts : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            amountCoins = Random.Range(50, 250);
-
             RaycastHit2D hit;
 
             Vector2 cursorPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -86,13 +84,8 @@ public class Boosts : MonoBehaviour
                 if (hit.collider.CompareTag("CoinBoost"))
                 {
                     Debug.Log("Klikattiin coin boostia");
-                    Manager.manager.currentScore += amountCoins;
-                    Instantiate(chestParticleEffect, new Vector3(cursorPos.x, cursorPos.y, 0), Quaternion.identity);
-                    chestSound.Play();
+                    CoinBoost();
                     Destroy(hit.collider.gameObject);
-
-                    StartCoroutine(Wait());
-
                 }
 
                 if (hit.collider.CompareTag("RandomizedBoost"))
@@ -104,6 +97,19 @@ public class Boosts : MonoBehaviour
                 }
             }
         }
+    }
+
+    void CoinBoost()
+    {
+        Vector2 cursorPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+        amountCoins = Random.Range(50, 250);
+
+        Manager.manager.currentScore += amountCoins;
+        Instantiate(chestParticleEffect, new Vector3(cursorPos.x, cursorPos.y, 0), Quaternion.identity);
+        chestSound.Play();
+        
+        StartCoroutine(Wait());
     }
 
     void RandomizedBoost()

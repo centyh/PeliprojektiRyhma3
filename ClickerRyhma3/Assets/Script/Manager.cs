@@ -341,8 +341,9 @@ public class Manager : MonoBehaviour
 
     public void ClickCastleUpgrade()
     {
-        if(!castleBought && currentScore >= clickCastlePrice)
+        if(currentScore >= clickCastlePrice)
         {
+            currentScore -= clickCastlePrice;
             castleLevel1++;
             clickDmgStat += 15;
             autoClickStat += 15;
